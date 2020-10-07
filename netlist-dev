@@ -1,0 +1,33 @@
+DESIGN TIME PRECISION: 10e0
+PACKAGES:
+SCOPES:
+dut module <dut> instance 0 children, 0 classes
+    timescale = 10e0 / 10e0
+    enum sets {
+    }
+    enum names {
+    }
+    event _ivl_0; nprobe=1 scope=dut // test_multi.v:75
+    wire: a unpacked dims=0 pin_count=1 input netvector_t:logic unsigned (eref=1, lref=0) scope=dut #(0,0,0) vector_width=1 pin_count=1
+    wire: b unpacked dims=0 pin_count=1 input netvector_t:logic unsigned (eref=0, lref=0) scope=dut #(0,0,0) vector_width=1 pin_count=1
+    wire: c unpacked dims=0 pin_count=1 input netvector_t:logic unsigned (eref=0, lref=0) scope=dut #(0,0,0) vector_width=1 pin_count=1
+    wire: clk unpacked dims=0 pin_count=1 input netvector_t:logic unsigned (eref=0, lref=0) scope=dut #(0,0,0) vector_width=1 pin_count=1
+        [0]: 0x55d89712d7c0 dut.clk
+    wire: e unpacked dims=0 pin_count=1 input netvector_t:logic unsigned (eref=0, lref=0) scope=dut #(0,0,0) vector_width=1 pin_count=1
+    reg: i unpacked dims=0 pin_count=1 netvector_t:logic signed[31:0] (eref=3, lref=2) scope=dut #(0,0,0) vector_width=32 pin_count=1 pins_are_virtual
+    reg: j unpacked dims=0 pin_count=1 netvector_t:logic signed[31:0] (eref=2, lref=2) scope=dut #(0,0,0) vector_width=32 pin_count=1 pins_are_virtual
+    reg: mem[3:0] unpacked dims=1 pin_count=4 netvector_t:logic unsigned[7:0] (eref=0, lref=1) scope=dut #(0,0,0) vector_width=8 pin_count=4 pins_are_virtual
+    reg: q unpacked dims=0 pin_count=1 output netvector_t:logic unsigned[7:0] (eref=0, lref=0) scope=dut #(0,0,0) vector_width=8 pin_count=1 pins_are_virtual
+ELABORATED NODES:
+posedge -> _ivl_0; 
+    0 pin0 I (strong0 strong1): 0x55d89712d7c0 dut.clk
+ELABORATED BRANCHES:
+ELABORATED PROCESSES:
+always  /* test_multi.v:75 in dut */
+  @(_ivl_0)  // test_multi.v:75
+    FOR LOOP index=i
+        FOR LOOP index=j
+            {mem[word=+i[31:0]][+j[31:0] +: 1]} = a;
+            {j} += 32'b00000000000000000000000000000001;
+(+j[31:0])<(32'sd2)+i[31:0]        {i} += 32'b00000000000000000000000000000001;
+(+i[31:0])<(32'sd2)32'sd1

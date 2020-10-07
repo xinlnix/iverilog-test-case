@@ -1,0 +1,44 @@
+DESIGN TIME PRECISION: 10e0
+PACKAGES:
+SCOPES:
+dut module <dut> instance 0 children, 0 classes
+    timescale = 10e0 / 10e0
+    enum sets {
+    }
+    enum names {
+    }
+    event _ivl_4; nprobe=1 scope=dut // test_multi.v:23
+    event _ivl_2; nprobe=1 scope=dut // test_multi.v:19
+    event _ivl_0; nprobe=1 scope=dut // test_multi.v:10
+    wire: a unpacked dims=0 pin_count=1 input netvector_t:logic unsigned (eref=0, lref=0) scope=dut #(0,0,0) vector_width=1 pin_count=1
+        [0]: 0x5586ae9592e0 dut.a
+    wire: b unpacked dims=0 pin_count=1 input netvector_t:logic unsigned (eref=3, lref=0) scope=dut #(0,0,0) vector_width=1 pin_count=1
+        [0]: 0x5586ae959600 dut.b
+    wire: c unpacked dims=0 pin_count=1 input netvector_t:logic unsigned (eref=2, lref=0) scope=dut #(0,0,0) vector_width=1 pin_count=1
+        [0]: 0x5586ae959a00 dut.c
+    wire: e unpacked dims=0 pin_count=1 input netvector_t:logic unsigned (eref=0, lref=0) scope=dut #(0,0,0) vector_width=1 pin_count=1
+    reg: q unpacked dims=0 pin_count=1 output netvector_t:logic unsigned (eref=0, lref=4) scope=dut #(0,0,0) vector_width=1 pin_count=1 pins_are_virtual
+ELABORATED NODES:
+anyedge -> _ivl_0; 
+    0 pin0 I (strong0 strong1): 0x5586ae9592e0 dut.a
+anyedge -> _ivl_2; 
+    0 pin0 I (strong0 strong1): 0x5586ae959600 dut.b
+anyedge -> _ivl_4; 
+    0 pin0 I (strong0 strong1): 0x5586ae959a00 dut.c
+ELABORATED BRANCHES:
+ELABORATED PROCESSES:
+always  /* test_multi.v:23 in dut */
+  (* _ivl_schedule_push = 'sd1 *)
+  @(_ivl_4)  // test_multi.v:23
+    {q} = c;
+always  /* test_multi.v:19 in dut */
+  (* _ivl_schedule_push = 'sd1 *)
+  @(_ivl_2)  // test_multi.v:19
+    {q} = b;
+always  /* test_multi.v:10 in dut */
+  (* _ivl_schedule_push = 'sd1 *)
+  @(_ivl_0)  // test_multi.v:10
+    if (b)
+        {q} = b;
+    else
+        {q} = c;
