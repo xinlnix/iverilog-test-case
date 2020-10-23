@@ -23,6 +23,20 @@ module dut(input a,b,c,e,clk, output reg [7:0] q );
 // // reg q[3:0];
 reg [7:0] mem[3:0];
 
+// reg h= 0;
+
+// reg f = 1;
+// reg [3:0] g = 111;
+
+// always@(*)begin
+//   q   = e;
+//   case(e)
+//   1:begin end
+//   0:begin q = {3{e}};end
+//   endcase
+
+// end
+
 // reg rr = 0;
 // reg rr2 = 1;
 
@@ -41,21 +55,26 @@ reg [7:0] mem[3:0];
 
 // initial
 // begin
-// q[0]<=32'd0;
-// q[1]<=32'd1;
-// q[2]<=32'd2;
-// q[3]<=32'd3;
-// q[4]<=32'd4;
-// q[5]<=32'd5;
-// q[6]<=32'd6;
-// q[7]<=32'd7;
+// q[0]=32'd0;
+// q[1]=32'd1;
+// q[2]=32'd2;
+// q[3]=32'd3;
+// q[4]=32'd4;
+// q[5]=32'd5;
+// q[6]=32'd6;
+// q[7]=32'd7;
 // end
 
+// initial
+// begin
+// q=1;
 
-// always@(*)begin
-//   mem[1][2] = a;
-//   rr2 = 0;
 // end
+
+always@(*)begin
+  // mem[0][3] = a;
+  // rr2 = 0;
+end
 
 // wire  [3:0] d;
 
@@ -73,12 +92,18 @@ reg [7:0] mem[3:0];
     reg [0:7] aa [0:15];
     integer i,j;
     always @(posedge clk) begin
-        for (i=1; i<3; i++)         
-            for (j=i+3; j <16; j++)            
+        for (i=2; i<4; i++)         //15
+            for (j=0; j <i+3; j++)            //7
                 mem[i][j] = a;
         // dd = cc & bb;
     end      
 
+    // always @(posedge clk) begin
+    //     for (i=5; i>3; i=i-1)         //15
+    //         for (j=i; j >1; j=j-1)            //7
+    //             mem[i][j] = a;
+    //     // dd = cc & bb;
+    // end  
   //   always@(*)begin
   //     aa[1][0:2] = b;
   //   end

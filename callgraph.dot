@@ -1,0 +1,33 @@
+digraph "callgraph" {
+  F55faa94e07e0 [label="__memcmp_avx2_movbe\n833 921 688"];
+  F55faa94e2040 [label="vsnprintf\n1 926 854 394"];
+  F55faa94e2fd0 [label="vfprintf\n1 423 588 794"];
+  F55faa94fc090 [label="_int_malloc\n597 694 608"];
+  F55faa953ca10 [label="malloc <cycle 1>\n1 097 295 876"];
+  F55faa96126b0 [label="operator new(unsigned long)\n2 008 028 127"];
+  F55faa969cd80 [label="std::__cxx11::basic_string<> _...\n2 260 573 146"];
+  F55faa969d940 [label="void std::__cxx11::basic_strin...\n2 317 942 609"];
+  F55faa98597c0 [label="std::pair<> std::_Rb_tree<>::_...\n2 451 670 705"];
+  F55faa98622c0 [label="Design::process_assign(NetAssi...\n10 728 462 808"];
+  F55faa9862fc0 [label="Design::process_class(NetProc*...\n10 728 443 005"];
+  F55faa9866860 [label="NetAssign_::lval_process(NetAs...\n10 728 462 808"];
+  F55faa988fc70 [label="std::__detail::_Node_iterator<...\n1 692 736 027"];
+  F55faa98c7a20 [label="std::__cxx11::basic_string<>::...\n1 371 786 962"];
+  F55faa990b560 [label="<cycle 1>\n1 098 391 260"];
+  F55faa94e2040 -> F55faa94e2fd0 [weight=3,label="1 423 588 794 (3 355 104x)"];
+  F55faa953ca10 -> F55faa94fc090 [weight=3,label="597 694 608 (3 556 738x)"];
+  F55faa96126b0 -> F55faa953ca10 [weight=3,label="1 790 059 537 (18 164 065x)"];
+  F55faa96126b0 -> F55faa990b560 [weight=3,label="1 790 059 537 (18 164 065x)"];
+  F55faa969cd80 -> F55faa94e2040 [weight=3,label="1 926 854 394 (3 355 104x)"];
+  F55faa969d940 -> F55faa98c7a20 [weight=3,label="1 371 786 962 (12 573 277x)"];
+  F55faa98597c0 -> F55faa94e07e0 [weight=3,label="833 921 688 (31 272 081x)"];
+  F55faa98622c0 -> F55faa9866860 [weight=3,label="10 728 462 808 (76 905x)"];
+  F55faa9862fc0 -> F55faa98622c0 [weight=3,label="10 728 443 005 (75 246x)"];
+  F55faa9866860 -> F55faa969cd80 [weight=3,label="2 260 573 146 (3 355 104x)"];
+  F55faa9866860 -> F55faa969d940 [weight=3,label="2 317 942 609 (17 518 295x)"];
+  F55faa9866860 -> F55faa98597c0 [weight=3,label="2 451 670 705 (3 355 104x)"];
+  F55faa9866860 -> F55faa988fc70 [weight=3,label="1 692 736 027 (3 355 104x)"];
+  F55faa988fc70 -> F55faa96126b0 [weight=3,label="775 890 034 (3 357 968x)"];
+  F55faa98c7a20 -> F55faa96126b0 [weight=3,label="1 232 138 093 (12 644 058x)"];
+  F55faa990b560 -> F55faa953ca10 [weight=3,label="1 097 295 876 (0x)"];
+}

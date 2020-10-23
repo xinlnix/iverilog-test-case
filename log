@@ -1,0 +1,937 @@
+--------------------------------------------------------------------------------
+Profile data file 'callgrind.out.26730' (creator: callgrind-3.13.0)
+--------------------------------------------------------------------------------
+I1 cache: 
+D1 cache: 
+LL cache: 
+Timerange: Basic block 0 - 66992
+Trigger: Program termination
+Profiled target:  iverilog case1011/case1/has_multi_driver/boy.v -d driverConflict 2 (PID 26730, part 1)
+Events recorded:  Ir
+Events shown:     Ir
+Event sort order: Ir
+Thresholds:       99
+Include dirs:     
+User annotated:   
+Auto-annotation:  on
+
+--------------------------------------------------------------------------------
+     Ir 
+--------------------------------------------------------------------------------
+315,295  PROGRAM TOTALS
+
+--------------------------------------------------------------------------------
+    Ir  file:function
+--------------------------------------------------------------------------------
+59,305  /build/glibc-S7xCS9/glibc-2.27/elf/dl-addr.c:_dl_addr [/lib/x86_64-linux-gnu/libc-2.27.so]
+40,034  /build/glibc-S7xCS9/glibc-2.27/elf/dl-lookup.c:do_lookup_x [/lib/x86_64-linux-gnu/ld-2.27.so]
+27,503  /build/glibc-S7xCS9/glibc-2.27/elf/dl-lookup.c:_dl_lookup_symbol_x [/lib/x86_64-linux-gnu/ld-2.27.so]
+26,836  /build/glibc-S7xCS9/glibc-2.27/stdlib/random_r.c:srandom_r [/lib/x86_64-linux-gnu/libc-2.27.so]
+23,781  /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/strcmp.S:strcmp [/lib/x86_64-linux-gnu/ld-2.27.so]
+21,542  /build/glibc-S7xCS9/glibc-2.27/elf/../sysdeps/x86_64/dl-machine.h:_dl_relocate_object
+21,503  /build/glibc-S7xCS9/glibc-2.27/elf/dl-tunables.c:__GI___tunables_init [/lib/x86_64-linux-gnu/ld-2.27.so]
+11,925  /build/glibc-S7xCS9/glibc-2.27/stdio-common/vfprintf.c:vfprintf [/lib/x86_64-linux-gnu/libc-2.27.so]
+10,775  /build/glibc-S7xCS9/glibc-2.27/elf/do-rel.h:_dl_relocate_object
+ 7,256  /build/glibc-S7xCS9/glibc-2.27/stdlib/getenv.c:getenv [/lib/x86_64-linux-gnu/libc-2.27.so]
+ 5,478  /build/glibc-S7xCS9/glibc-2.27/elf/dl-tunables.h:__GI___tunables_init
+ 4,511  /build/glibc-S7xCS9/glibc-2.27/libio/fileops.c:_IO_file_xsputn@@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libc-2.27.so]
+ 3,776  /build/glibc-S7xCS9/glibc-2.27/elf/dl-misc.c:_dl_name_match_p [/lib/x86_64-linux-gnu/ld-2.27.so]
+ 2,982  /build/glibc-S7xCS9/glibc-2.27/libio/genops.c:_IO_default_xsputn [/lib/x86_64-linux-gnu/libc-2.27.so]
+ 2,231  /build/glibc-S7xCS9/glibc-2.27/malloc/malloc.c:_int_malloc [/lib/x86_64-linux-gnu/libc-2.27.so]
+ 2,222  /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/multiarch/strchr-avx2.S:__strchrnul_avx2 [/lib/x86_64-linux-gnu/libc-2.27.so]
+ 2,054  /build/glibc-S7xCS9/glibc-2.27/elf/dl-version.c:_dl_check_map_versions [/lib/x86_64-linux-gnu/ld-2.27.so]
+ 1,428  /build/glibc-S7xCS9/glibc-2.27/debug/fprintf_chk.c:__fprintf_chk [/lib/x86_64-linux-gnu/libc-2.27.so]
+ 1,407  /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/multiarch/strlen-avx2.S:__strlen_avx2 [/lib/x86_64-linux-gnu/libc-2.27.so]
+ 1,309  /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:__mempcpy_avx_unaligned_erms [/lib/x86_64-linux-gnu/libc-2.27.so]
+ 1,172  /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/multiarch/strcmp-sse42.S:__strncmp_sse42 [/lib/x86_64-linux-gnu/libc-2.27.so]
+ 1,060  /build/glibc-S7xCS9/glibc-2.27/malloc/malloc.c:free [/lib/x86_64-linux-gnu/libc-2.27.so]
+   978  /build/glibc-S7xCS9/glibc-2.27/stdio-common/../libio/libioP.h:vfprintf
+   950  /build/glibc-S7xCS9/glibc-2.27/elf/dl-deps.c:_dl_map_object_deps [/lib/x86_64-linux-gnu/ld-2.27.so]
+   899  /build/glibc-S7xCS9/glibc-2.27/elf/rtld.c:dl_main [/lib/x86_64-linux-gnu/ld-2.27.so]
+   886  /build/glibc-S7xCS9/glibc-2.27/malloc/malloc.c:ptmalloc_init.part.0
+   855  /build/glibc-S7xCS9/glibc-2.27/elf/dl-cache.c:_dl_cache_libcmp [/lib/x86_64-linux-gnu/ld-2.27.so]
+   848  /build/glibc-S7xCS9/glibc-2.27/elf/dl-load.c:_dl_map_object_from_fd [/lib/x86_64-linux-gnu/ld-2.27.so]
+   767  /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86/cacheinfo.c:intel_check_word.isra.0 [/lib/x86_64-linux-gnu/libc-2.27.so]
+   713  /build/glibc-S7xCS9/glibc-2.27/elf/dl-load.c:open_verify.constprop.7 [/lib/x86_64-linux-gnu/ld-2.27.so]
+   657  /build/glibc-S7xCS9/glibc-2.27/stdio-common/printf-parse.h:vfprintf
+   608  /home/ggx/project/hardware/iverilog_src/iverilog-dev/driver/./main.c:main [/usr/local/bin/iverilog]
+   598  /build/glibc-S7xCS9/glibc-2.27/elf/dl-object.c:_dl_new_object [/lib/x86_64-linux-gnu/ld-2.27.so]
+   597  /build/glibc-S7xCS9/glibc-2.27/elf/dl-load.c:open_path [/lib/x86_64-linux-gnu/ld-2.27.so]
+   582  /build/glibc-S7xCS9/glibc-2.27/string/../bits/stdlib-bsearch.h:intel_check_word.isra.0
+   575  /build/glibc-S7xCS9/glibc-2.27/elf/dl-hwcaps.c:_dl_important_hwcaps [/lib/x86_64-linux-gnu/ld-2.27.so]
+   561  /build/glibc-S7xCS9/glibc-2.27/malloc/malloc.c:malloc [/lib/x86_64-linux-gnu/libc-2.27.so]
+   555  /build/glibc-S7xCS9/glibc-2.27/elf/get-dynamic-info.h:_dl_map_object_from_fd
+   522  /build/glibc-S7xCS9/glibc-2.27/debug/vsnprintf_chk.c:__vsnprintf_chk [/lib/x86_64-linux-gnu/libc-2.27.so]
+   519  /build/glibc-S7xCS9/glibc-2.27/elf/../elf/dl-sysdep.c:_dl_sysdep_start [/lib/x86_64-linux-gnu/ld-2.27.so]
+   485  /build/glibc-S7xCS9/glibc-2.27/elf/dl-reloc.c:_dl_relocate_object [/lib/x86_64-linux-gnu/ld-2.27.so]
+   455  /build/glibc-S7xCS9/glibc-2.27/libio/genops.c:_IO_un_link [/lib/x86_64-linux-gnu/libc-2.27.so]
+   445  /build/glibc-S7xCS9/glibc-2.27/elf/dl-load.c:_dl_map_object [/lib/x86_64-linux-gnu/ld-2.27.so]
+   442  /build/glibc-S7xCS9/glibc-2.27/elf/dl-environ.c:_dl_next_ld_env_entry [/lib/x86_64-linux-gnu/ld-2.27.so]
+   432  /build/glibc-S7xCS9/glibc-2.27/elf/../sysdeps/generic/ldsodefs.h:_dl_relocate_object
+   427  /build/glibc-S7xCS9/glibc-2.27/elf/dl-minimal.c:malloc [/lib/x86_64-linux-gnu/ld-2.27.so]
+   424  /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S:memset [/lib/x86_64-linux-gnu/ld-2.27.so]
+   405  /build/glibc-S7xCS9/glibc-2.27/elf/../sysdeps/generic/ldsodefs.h:do_lookup_x
+   404  /build/glibc-S7xCS9/glibc-2.27/stdio-common/_itoa.c:_itoa_word [/lib/x86_64-linux-gnu/libc-2.27.so]
+   391  /build/glibc-S7xCS9/glibc-2.27/elf/dl-sort-maps.c:_dl_sort_maps [/lib/x86_64-linux-gnu/ld-2.27.so]
+   389  /build/glibc-S7xCS9/glibc-2.27/elf/../sysdeps/x86_64/dl-machine.h:_dl_start
+   379  /build/glibc-S7xCS9/glibc-2.27/elf/dl-cache.c:_dl_load_cache_lookup [/lib/x86_64-linux-gnu/ld-2.27.so]
+   344  /build/glibc-S7xCS9/glibc-2.27/libio/genops.c:_IO_link_in [/lib/x86_64-linux-gnu/libc-2.27.so]
+   339  /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:mempcpy [/lib/x86_64-linux-gnu/ld-2.27.so]
+   333  /build/glibc-S7xCS9/glibc-2.27/libio/genops.c:_IO_old_init [/lib/x86_64-linux-gnu/libc-2.27.so]
+   332  /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/multiarch/../strlen.S:strlen [/lib/x86_64-linux-gnu/ld-2.27.so]
+   330  /build/glibc-S7xCS9/glibc-2.27/elf/../elf/dl-tls.c:_dl_allocate_tls_storage [/lib/x86_64-linux-gnu/ld-2.27.so]
+   330  /build/glibc-S7xCS9/glibc-2.27/libio/genops.c:_IO_no_init [/lib/x86_64-linux-gnu/libc-2.27.so]
+   321  /build/glibc-S7xCS9/glibc-2.27/libio/genops.c:_IO_setb [/lib/x86_64-linux-gnu/libc-2.27.so]
+   320  /build/glibc-S7xCS9/glibc-2.27/elf/get-dynamic-info.h:dl_main
+   318  /build/glibc-S7xCS9/glibc-2.27/malloc/malloc.c:_int_free [/lib/x86_64-linux-gnu/libc-2.27.so]
+   317  /build/glibc-S7xCS9/glibc-2.27/elf/dl-load.c:_dl_init_paths [/lib/x86_64-linux-gnu/ld-2.27.so]
+   315  /build/glibc-S7xCS9/glibc-2.27/libio/strops.c:_IO_str_init_static_internal [/lib/x86_64-linux-gnu/libc-2.27.so]
+   309  /build/glibc-S7xCS9/glibc-2.27/io/../sysdeps/unix/sysv/linux/open64.c:open [/lib/x86_64-linux-gnu/libc-2.27.so]
+   308  /build/glibc-S7xCS9/glibc-2.27/libio/iofdopen.c:fdopen@@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libc-2.27.so]
+   308  /build/glibc-S7xCS9/glibc-2.27/debug/../libio/libioP.h:__fprintf_chk
+   307  /build/glibc-S7xCS9/glibc-2.27/elf/dl-tunables.c:__tunable_get_val [/lib/x86_64-linux-gnu/ld-2.27.so]
+   299  /build/glibc-S7xCS9/glibc-2.27/malloc/malloc.c:_int_realloc [/lib/x86_64-linux-gnu/libc-2.27.so]
+   296  /build/glibc-S7xCS9/glibc-2.27/elf/do-rel.h:_dl_start
+   278  /build/glibc-S7xCS9/glibc-2.27/malloc/malloc.c:realloc [/lib/x86_64-linux-gnu/libc-2.27.so]
+   269  /build/glibc-S7xCS9/glibc-2.27/elf/dl-fini.c:_dl_fini [/lib/x86_64-linux-gnu/ld-2.27.so]
+   260  /home/ggx/project/hardware/iverilog_src/iverilog-dev/driver/./main.c:my_tempfile [/usr/local/bin/iverilog]
+   255  /usr/include/x86_64-linux-gnu/bits/stdio2.h:main
+   251  /build/glibc-S7xCS9/glibc-2.27/posix/getopt.c:_getopt_internal_r [/lib/x86_64-linux-gnu/libc-2.27.so]
+   250  /build/glibc-S7xCS9/glibc-2.27/signal/../sysdeps/unix/sysv/linux/x86_64/sigaction.c:__libc_sigaction [/lib/x86_64-linux-gnu/libc-2.27.so]
+   247  /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86/cacheinfo.c:init_cacheinfo [/lib/x86_64-linux-gnu/libc-2.27.so]
+   244  /build/glibc-S7xCS9/glibc-2.27/elf/dl-minimal.c:strsep [/lib/x86_64-linux-gnu/ld-2.27.so]
+   243  /build/glibc-S7xCS9/glibc-2.27/misc/../sysdeps/unix/sysv/linux/mmap64.c:mmap [/lib/x86_64-linux-gnu/ld-2.27.so]
+   241  /build/glibc-S7xCS9/glibc-2.27/elf/get-dynamic-info.h:_dl_start
+   228  /build/glibc-S7xCS9/glibc-2.27/libio/iofclose.c:fclose@@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libc-2.27.so]
+   219  /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:memcpy [/lib/x86_64-linux-gnu/ld-2.27.so]
+   218  /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/strcspn.S:strcspn [/lib/x86_64-linux-gnu/ld-2.27.so]
+   215  /build/glibc-S7xCS9/glibc-2.27/libio/fileops.c:_IO_file_close_it@@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libc-2.27.so]
+   210  /build/glibc-S7xCS9/glibc-2.27/elf/./dl-map-segments.h:_dl_map_object_from_fd
+   195  /build/glibc-S7xCS9/glibc-2.27/libio/fileops.c:_IO_do_write@@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libc-2.27.so]
+   186  /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/multiarch/../strchr.S:index [/lib/x86_64-linux-gnu/ld-2.27.so]
+   185  /build/glibc-S7xCS9/glibc-2.27/elf/dl-load.c:fillin_rpath [/lib/x86_64-linux-gnu/ld-2.27.so]
+   183  /build/glibc-S7xCS9/glibc-2.27/elf/dl-init.c:_dl_init [/lib/x86_64-linux-gnu/ld-2.27.so]
+   180  /build/glibc-S7xCS9/glibc-2.27/debug/snprintf_chk.c:__snprintf_chk [/lib/x86_64-linux-gnu/libc-2.27.so]
+   177  /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86/cacheinfo.c:handle_intel.constprop.1 [/lib/x86_64-linux-gnu/libc-2.27.so]
+   152  /build/glibc-S7xCS9/glibc-2.27/elf/../elf/dl-runtime.c:_dl_fixup [/lib/x86_64-linux-gnu/ld-2.27.so]
+   149  /build/glibc-S7xCS9/glibc-2.27/malloc/malloc.c:sysmalloc [/lib/x86_64-linux-gnu/libc-2.27.so]
+   148  /build/glibc-S7xCS9/glibc-2.27/libio/libioP.h:_IO_default_xsputn
+   147  /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/multiarch/strcmp-sse2-unaligned.S:__strcmp_sse2_unaligned [/lib/x86_64-linux-gnu/libc-2.27.so]
+   147  /build/glibc-S7xCS9/glibc-2.27/libio/fileops.c:_IO_file_overflow@@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libc-2.27.so]
+   134  /build/glibc-S7xCS9/glibc-2.27/stdlib/../sysdeps/posix/system.c:do_system [/lib/x86_64-linux-gnu/libc-2.27.so]
+   132  /build/glibc-S7xCS9/glibc-2.27/libio/filedoalloc.c:_IO_file_doallocate [/lib/x86_64-linux-gnu/libc-2.27.so]
+   130  /build/glibc-S7xCS9/glibc-2.27/string/strdup.c:strdup [/lib/x86_64-linux-gnu/libc-2.27.so]
+   125  /build/glibc-S7xCS9/glibc-2.27/posix/getopt.c:exchange [/lib/x86_64-linux-gnu/libc-2.27.so]
+   124  /build/glibc-S7xCS9/glibc-2.27/elf/../sysdeps/x86/cpu-features.c:_dl_sysdep_start
+   116  /build/glibc-S7xCS9/glibc-2.27/stdlib/cxa_finalize.c:__cxa_finalize [/lib/x86_64-linux-gnu/libc-2.27.so]
+   111  /build/glibc-S7xCS9/glibc-2.27/libio/iofwrite.c:fwrite [/lib/x86_64-linux-gnu/libc-2.27.so]
+   110  /build/glibc-S7xCS9/glibc-2.27/libio/genops.c:_IO_flush_all_lockp [/lib/x86_64-linux-gnu/libc-2.27.so]
+   108  /build/glibc-S7xCS9/glibc-2.27/stdlib/random_r.c:random_r [/lib/x86_64-linux-gnu/libc-2.27.so]
+   108  /build/glibc-S7xCS9/glibc-2.27/libio/fileops.c:_IO_file_write@@GLIBC_2.2.5 [/lib/x86_64-linux-gnu/libc-2.27.so]
+   107  /build/glibc-S7xCS9/glibc-2.27/malloc/malloc.c:tcache_init.part.4 [/lib/x86_64-linux-gnu/libc-2.27.so]
+   106  /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S:__memcpy_avx_unaligned_erms [/lib/x86_64-linux-gnu/libc-2.27.so]
+   105  /build/glibc-S7xCS9/glibc-2.27/stdlib/exit.c:__run_exit_handlers [/lib/x86_64-linux-gnu/libc-2.27.so]
+   105  /build/glibc-S7xCS9/glibc-2.27/malloc/arena.c:ptmalloc_init.part.0 [/lib/x86_64-linux-gnu/libc-2.27.so]
+   105  /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/multiarch/strchr-avx2.S:__strchr_avx2 [/lib/x86_64-linux-gnu/libc-2.27.so]
+   104  /build/glibc-S7xCS9/glibc-2.27/elf/../elf/dl-tls.c:_dl_allocate_tls_init [/lib/x86_64-linux-gnu/ld-2.27.so]
+   103  /build/glibc-S7xCS9/glibc-2.27/elf/dl-object.c:_dl_add_to_namespace_list [/lib/x86_64-linux-gnu/ld-2.27.so]
+   101  /build/glibc-S7xCS9/glibc-2.27/io/../sysdeps/unix/sysv/linux/wordsize-64/xstat.c:_xstat [/lib/x86_64-linux-gnu/ld-2.27.so]
+   100  /build/glibc-S7xCS9/glibc-2.27/libio/genops.c:_IO_default_finish [/lib/x86_64-linux-gnu/libc-2.27.so]
+    93  /build/glibc-S7xCS9/glibc-2.27/elf/dl-error-skeleton.c:_dl_catch_exception [/lib/x86_64-linux-gnu/ld-2.27.so]
+    92  /build/glibc-S7xCS9/glibc-2.27/elf/dl-lookup.c:_dl_setup_hash [/lib/x86_64-linux-gnu/ld-2.27.so]
+    92  /build/glibc-S7xCS9/glibc-2.27/io/../sysdeps/unix/sysv/linux/fcntl.c:fcntl [/lib/x86_64-linux-gnu/libc-2.27.so]
+    88  /build/glibc-S7xCS9/glibc-2.27/stdlib/random.c:random [/lib/x86_64-linux-gnu/libc-2.27.so]
+    88  /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/multiarch/strcmp-sse42.S:__strcasecmp_avx [/lib/x86_64-linux-gnu/libc-2.27.so]
+    87  /build/glibc-S7xCS9/glibc-2.27/libio/genops.c:_IO_cleanup [/lib/x86_64-linux-gnu/libc-2.27.so]
+    87  /build/glibc-S7xCS9/glibc-2.27/elf/../sysdeps/x86/cpu-features.c:get_common_indeces.constprop.1 [/lib/x86_64-linux-gnu/ld-2.27.so]
+    83  /build/glibc-S7xCS9/glibc-2.27/elf/rtld.c:_dl_start [/lib/x86_64-linux-gnu/ld-2.27.so]
+    80  /build/glibc-S7xCS9/glibc-2.27/elf/../sysdeps/x86_64/dl-trampoline.h:_dl_runtime_resolve_xsave [/lib/x86_64-linux-gnu/ld-2.27.so]
+    79  /build/glibc-S7xCS9/glibc-2.27/setjmp/../sysdeps/x86_64/setjmp.S:__sigsetjmp [/lib/x86_64-linux-gnu/libc-2.27.so]
+    74  /build/glibc-S7xCS9/glibc-2.27/elf/../sysdeps/unix/sysv/linux/dl-sysdep.c:_dl_discover_osversion [/lib/x86_64-linux-gnu/ld-2.27.so]
+    74  /build/glibc-S7xCS9/glibc-2.27/elf/rtld.c:init_tls [/lib/x86_64-linux-gnu/ld-2.27.so]
+    72  /build/glibc-S7xCS9/glibc-2.27/elf/dl-minimal.c:calloc [/lib/x86_64-linux-gnu/ld-2.27.so]
+    72  /build/glibc-S7xCS9/glibc-2.27/libio/libioP.h:fclose@@GLIBC_2.2.5
+    71  /build/glibc-S7xCS9/glibc-2.27/elf/dl-version.c:_dl_check_all_versions [/lib/x86_64-linux-gnu/ld-2.27.so]
+    69  /build/glibc-S7xCS9/glibc-2.27/elf/rtld.c:handle_ld_preload [/lib/x86_64-linux-gnu/ld-2.27.so]
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: /usr/include/x86_64-linux-gnu/bits/stdio2.h
+--------------------------------------------------------------------------------
+ Ir 
+
+-- line 56 ----------------------------------------
+  .  			    size_t __slen, const char *__restrict __format,
+  .  			    _G_va_list __ap) __THROW;
+  .  
+  .  # ifdef __va_arg_pack
+  .  __fortify_function int
+  .  __NTH (snprintf (char *__restrict __s, size_t __n,
+  .  		 const char *__restrict __fmt, ...))
+  .  {
+118    return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+2,788  => /build/glibc-S7xCS9/glibc-2.27/debug/snprintf_chk.c:__snprintf_chk (1x)
+  .  				   __bos (__s), __fmt, __va_arg_pack ());
+  .  }
+  .  # elif !defined __cplusplus
+  .  #  define snprintf(str, len, ...) \
+  .    __builtin___snprintf_chk (str, len, __USE_FORTIFY_LEVEL - 1, __bos (str), \
+  .  			    __VA_ARGS__)
+  .  # endif
+  .  
+-- line 72 ----------------------------------------
+-- line 89 ----------------------------------------
+  .  			   const char *__restrict __format, _G_va_list __ap);
+  .  extern int __vprintf_chk (int __flag, const char *__restrict __format,
+  .  			  _G_va_list __ap);
+  .  
+  .  # ifdef __va_arg_pack
+  .  __fortify_function int
+  .  fprintf (FILE *__restrict __stream, const char *__restrict __fmt, ...)
+  .  {
+224    return __fprintf_chk (__stream, __USE_FORTIFY_LEVEL - 1, __fmt,
+1,458  => /build/glibc-S7xCS9/glibc-2.27/debug/fprintf_chk.c:__fprintf_chk (2x)
+  .  			__va_arg_pack ());
+  .  }
+  .  
+  .  __fortify_function int
+  .  printf (const char *__restrict __fmt, ...)
+  .  {
+  .    return __printf_chk (__USE_FORTIFY_LEVEL - 1, __fmt, __va_arg_pack ());
+  .  }
+-- line 105 ----------------------------------------
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: /home/ggx/project/hardware/iverilog_src/iverilog-dev/driver/./main.c
+--------------------------------------------------------------------------------
+ Ir 
+
+-- line 219 ----------------------------------------
+  .        }
+  .  }
+  .  
+  .  /* Function to return the top command file name from the FIFO. */
+  .  static char *get_cmd_file(void)
+  .  {
+  .        char *filename;
+  .  
+  3        if (cmd_file_head == NULL) filename = NULL;
+  .        else {
+  .              p_command_file head;
+  .  
+  .              filename = cmd_file_head->filename;
+  .              head = cmd_file_head;
+  .              cmd_file_head = cmd_file_head->next;
+  .              free(head);
+  .        }
+-- line 235 ----------------------------------------
+-- line 250 ----------------------------------------
+  .  }
+  .  #else
+  .  static FILE*fopen_safe(const char*path)
+  .  {
+  .        FILE*file = 0;
+  .        int fd;
+  .  
+  .        fd = open(path, O_WRONLY|O_CREAT|O_EXCL, 0700);
+  8        if (fd != -1)
+ 16  	    file = fdopen(fd, "w");
+65,038  => /build/glibc-S7xCS9/glibc-2.27/libio/iofdopen.c:fdopen@@GLIBC_2.2.5 (4x)
+  .  
+  .        return file;
+  .  }
+  .  #endif
+  .  
+  .  #ifdef __MINGW32__
+  .  /*
+  .   * The MinGW version of getenv() returns the path with a forward
+-- line 267 ----------------------------------------
+-- line 275 ----------------------------------------
+  .        char *t;
+  .        for (t = path; *t; t++) {
+  .  	    if (*t == '/') *t = '\\';
+  .        }
+  .  }
+  .  #endif
+  .  
+  .  static const char*my_tempfile(const char*str, FILE**fout)
+ 28  {
+  .        FILE*file;
+  .        int retry;
+  .  
+  .        static char pathbuf[8192];
+  .  
+ 16        const char*tmpdir = getenv("TMP");
+1,848  => /build/glibc-S7xCS9/glibc-2.27/stdlib/getenv.c:getenv (4x)
+  8        if (tmpdir == 0)
+ 16  	    tmpdir = getenv("TMPDIR");
+1,848  => /build/glibc-S7xCS9/glibc-2.27/stdlib/getenv.c:getenv (4x)
+  8        if (tmpdir == 0)
+ 16  	    tmpdir = getenv("TEMP");
+3,188  => /build/glibc-S7xCS9/glibc-2.27/stdlib/getenv.c:getenv (4x)
+  .  #ifdef __MINGW32__
+  .        if (tmpdir == 0)
+  .  	    tmpdir = "C:\\TEMP";
+  .  #else
+  8        if (tmpdir == 0)
+  8  	    tmpdir = "/tmp";
+  .  #endif
+  .  
+  .        assert(tmpdir);
+ 40        assert((strlen(tmpdir) + strlen(str)) < sizeof pathbuf - 10);
+144  => /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/multiarch/strlen-avx2.S:__strlen_avx2 (8x)
+  .  
+ 24        srand(getpid());
+26,904  => /build/glibc-S7xCS9/glibc-2.27/stdlib/random.c:srand (4x)
+ 12  => /build/glibc-S7xCS9/glibc-2.27/posix/../sysdeps/unix/syscall-template.S:getpid (4x)
+  4        retry = 100;
+  .        file = NULL;
+ 16        while ((retry > 0) && (file == NULL)) {
+  8  	    unsigned code = rand();
+212  => /build/glibc-S7xCS9/glibc-2.27/stdlib/rand.c:rand (4x)
+  .  	    snprintf(pathbuf, sizeof pathbuf, "%s%c%s%04x",
+  .  	             tmpdir, sep, str, code);
+  .  #ifdef __MINGW32__
+  .  	    convert_to_MS_path(pathbuf);
+  .  #endif
+  .  	    file = fopen_safe(pathbuf);
+  4  	    retry -= 1;
+  .        }
+  .  
+  4        *fout = file;
+  .        return pathbuf;
+ 28  }
+  .  
+  .  static int t_version_only(void)
+  .  {
+  .        int rc;
+  .        remove(source_path);
+  .        free(source_path);
+  .  
+  .        fflush(0);
+-- line 329 ----------------------------------------
+-- line 349 ----------------------------------------
+  .  	    remove(compiled_defines_path);
+  .  	    free(compiled_defines_path);
+  .        }
+  .  
+  .        return 0;
+  .  }
+  .  
+  .  static void build_preprocess_command(int e_flag)
+ 12  {
+ 21  => /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/multiarch/strchr-avx2.S:__strchr_avx2 (1x)
+ 10        snprintf(tmp, sizeof tmp, "%s%civlpp %s%s%s -F\"%s\" -f\"%s\" -p\"%s\"%s",
+  .  	       ivlpp_dir, sep,
+  .                 verbose_flag ? " -v" : "",
+  .  	       e_flag ? "" : " -L",
+  .                 strchr(warning_flags, 'r') ? " -Wredef-all " :
+ 11                 strchr(warning_flags, 'R') ? " -Wredef-chg " : "",
+ 21  => /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/multiarch/strchr-avx2.S:__strchr_avx2 (1x)
+  .                 defines_path, source_path,
+  .  	       compiled_defines_path,
+  .  	       e_flag ? "" : " | ");
+  6  }
+  .  
+  .  static int t_preprocess_only(void)
+  .  {
+  .        int rc;
+  .        char*cmd;
+  .        unsigned ncmd;
+  .  
+  .        build_preprocess_command(1);
+-- line 375 ----------------------------------------
+-- line 423 ----------------------------------------
+  .   * already parsed for us) so we can handle must of the generic cases.
+  .   */
+  .  static int t_compile(void)
+  .  {
+  .        unsigned rc;
+  .  
+  .  	/* Start by building the preprocess command line, if required.
+  .  	   This pipes into the main ivl command. */
+  2        if (!separate_compilation_flag)
+  3  	    build_preprocess_command(0);
+2,886  => /home/ggx/project/hardware/iverilog_src/iverilog-dev/driver/./main.c:build_preprocess_command (1x)
+  .        else
+  .  	    strcpy(tmp, "");
+  .  
+112        size_t ncmd = strlen(tmp);
+  8        char*cmd = malloc(ncmd + 1);
+352  => /build/glibc-S7xCS9/glibc-2.27/malloc/malloc.c:malloc (1x)
+  .        strcpy(cmd, tmp);
+  .  
+  .  #ifndef __MINGW32__
+  .        int rtn;
+  .  #endif
+  .  
+  .  	/* Build the ivl command. */
+  .        snprintf(tmp, sizeof tmp, "%s%civl", base, sep);
+ 28        rc = strlen(tmp);
+ 13        cmd = realloc(cmd, ncmd+rc+1);
+301  => /build/glibc-S7xCS9/glibc-2.27/malloc/malloc.c:realloc (1x)
+  2        strcpy(cmd+ncmd, tmp);
+  .        ncmd += rc;
+  .  
+  2        if (verbose_flag) {
+  .  	    const char*vv = " -v";
+  .  	    rc = strlen(vv);
+  .  	    cmd = realloc(cmd, ncmd+rc+1);
+  .  	    strcpy(cmd+ncmd, vv);
+  .  	    ncmd += rc;
+  .        }
+  .  
+  3        if (npath != 0) {
+  .  	    snprintf(tmp, sizeof tmp, " -N\"%s\"", npath);
+  .  	    rc = strlen(tmp);
+  .  	    cmd = realloc(cmd, ncmd+rc+1);
+  .  	    strcpy(cmd+ncmd, tmp);
+  .  	    ncmd += rc;
+  .        }
+  .  
+  .        snprintf(tmp, sizeof tmp, " -C\"%s\"", iconfig_path);
+ 29        rc = strlen(tmp);
+ 12        cmd = realloc(cmd, ncmd+rc+1);
+275  => /build/glibc-S7xCS9/glibc-2.27/malloc/malloc.c:realloc (1x)
+  1        strcpy(cmd+ncmd, tmp);
+  .        ncmd += rc;
+  .  
+  .        snprintf(tmp, sizeof tmp, " -C\"%s\"", iconfig_common_path);
+ 38        rc = strlen(tmp);
+ 13        cmd = realloc(cmd, ncmd+rc+1);
+275  => /build/glibc-S7xCS9/glibc-2.27/malloc/malloc.c:realloc (1x)
+  2        strcpy(cmd+ncmd, tmp);
+  .        ncmd += rc;
+  .  
+  2        if (separate_compilation_flag)
+  .  	    snprintf(tmp, sizeof tmp, " -F\"%s\"", source_path);
+  .        else
+  .  	    snprintf(tmp, sizeof tmp, " -- -");
+ 11        rc = strlen(tmp);
+  8        cmd = realloc(cmd, ncmd+rc+1);
+136  => /build/glibc-S7xCS9/glibc-2.27/malloc/malloc.c:realloc (1x)
+  2        strcpy(cmd+ncmd, tmp);
+  .        ncmd += rc;
+  .  
+  .  
+  2        if (verbose_flag)
+  .  	    printf("translate: %s\n", cmd);
+  .  
+  .  
+  4        rc = system(cmd);
+425  => /build/glibc-S7xCS9/glibc-2.27/stdlib/../sysdeps/posix/system.c:system (1x)
+  5        if ( ! getenv("IVERILOG_ICONFIG")) {
+458  => /build/glibc-S7xCS9/glibc-2.27/stdlib/getenv.c:getenv (1x)
+  3  	    remove(source_path);
+ 12  => /build/glibc-S7xCS9/glibc-2.27/stdio-common/../sysdeps/posix/remove.c:remove (1x)
+  3  	    free(source_path);
+ 73  => /build/glibc-S7xCS9/glibc-2.27/malloc/malloc.c:free (1x)
+  3  	    remove(iconfig_path);
+ 12  => /build/glibc-S7xCS9/glibc-2.27/stdio-common/../sysdeps/posix/remove.c:remove (1x)
+  3  	    free(iconfig_path);
+ 73  => /build/glibc-S7xCS9/glibc-2.27/malloc/malloc.c:free (1x)
+  3  	    remove(defines_path);
+ 12  => /build/glibc-S7xCS9/glibc-2.27/stdio-common/../sysdeps/posix/remove.c:remove (1x)
+  3  	    free(defines_path);
+ 73  => /build/glibc-S7xCS9/glibc-2.27/malloc/malloc.c:free (1x)
+  3  	    remove(compiled_defines_path);
+ 12  => /build/glibc-S7xCS9/glibc-2.27/stdio-common/../sysdeps/posix/remove.c:remove (1x)
+  4  	    free(compiled_defines_path);
+ 73  => /build/glibc-S7xCS9/glibc-2.27/malloc/malloc.c:free (1x)
+  .        }
+  .  #ifdef __MINGW32__  /* MinGW just returns the exit status, so return it! */
+  .        free(cmd);
+  .        return rc;
+  .  #else
+  .        rtn = 0;
+  2        if (rc != 0) {
+  .  	    if (rc == 127) {
+  .  		  fprintf(stderr, "Failed to execute: %s\n", cmd);
+  .  		  rtn = 1;
+  .  	    } else if (WIFEXITED(rc)) {
+  .  		  rtn = WEXITSTATUS(rc);
+  .  	    } else {
+  .  		  fprintf(stderr, "Command signaled: %s\n", cmd);
+  .  		  rtn = -1;
+  .  	    }
+  .        }
+  .  
+  3        free(cmd);
+ 73  => /build/glibc-S7xCS9/glibc-2.27/malloc/malloc.c:free (1x)
+  .        return rtn;
+  .  #endif
+  .  }
+  .  
+  .  
+  .  static void process_warning_switch(const char*name)
+  .  {
+  .        if (strcmp(name,"all") == 0) {
+-- line 529 ----------------------------------------
+-- line 682 ----------------------------------------
+  .  /*
+  .   * This function is called while processing a file name in a command
+  .   * file, or a file name on the command line. Look to see if there is a
+  .   * .sft or .vpi suffix, and if so pass that as a sys_func or module
+  .   * file. Otherwise, it is a Verilog source file to be written into the
+  .   * file list.
+  .   */
+  .  void process_file_name(const char*name, int lib_flag)
+ 10  {
+ 15        if (strlen(name) > 4 && strcasecmp(".sft", name+strlen(name)-4) == 0) {
+ 42  => /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/multiarch/strlen-avx2.S:__strlen_avx2 (2x)
+ 44  => /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/multiarch/strcmp-sse42.S:__strcasecmp_avx (1x)
+  .  	    fprintf(stderr, "SFT files are deprecated. Please pass the VPI module instead.\n");
+  .  	    fprintf(iconfig_file,"sys_func:%s\n", name);
+  .  
+  6        } else if (strlen(name) > 4 && strcasecmp(".vpi", name+strlen(name)-4) == 0) {
+ 44  => /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/multiarch/strcmp-sse42.S:__strcasecmp_avx (1x)
+  .  	    fprintf(iconfig_file,"module:%s\n", name);
+  .  
+  .        } else {
+  .  	    fprintf(source_file, "%s\n", name);
+  2  	    source_count += 1;
+  4  	    if (lib_flag)
+  .  		  fprintf(iconfig_file,"library_file:%s\n", name);
+  .        }
+  8  }
+  .  
+  .  static int process_generation(const char*name)
+  .  {
+  .        if (strcmp(name,"1995") == 0)
+  .  	    generation = "1995";
+  .  
+  .        else if (strcmp(name,"2001") == 0)
+  .  	    generation = "2001";
+-- line 712 ----------------------------------------
+-- line 875 ----------------------------------------
+  .        env_vpi_path_list_size += 1;
+  .        env_vpi_path_list = (const char**)realloc(env_vpi_path_list,
+  .  					  env_vpi_path_list_size*sizeof(char*));
+  .        env_vpi_path_list[env_vpi_path_list_size-1] = path;
+  .  }
+  .  
+  .  static void get_env_vpi_module_paths(void)
+  .  {
+  3        char *var = getenv("IVERILOG_VPI_MODULE_PATH");
+466  => /build/glibc-S7xCS9/glibc-2.27/stdlib/getenv.c:getenv (1x)
+  .        char *ptr, *end;
+  .  
+  2        if (!var)
+  .  	    return;
+  .  
+  .        var = strdup(var);
+  .  #ifdef __MINGW32__
+  .        convert_to_MS_path(var);
+  .  #endif
+  .        ptr = var;
+  .        end = var+strlen(var);
+-- line 894 ----------------------------------------
+-- line 1005 ----------------------------------------
+  .        const char *ivl_lib_prefix = IVL_LIB;
+  .        const char *ivl_lib_suffix = "/ivl" IVL_SUFFIX;
+  .  #endif
+  .        ssize_t len = 0;
+  .        char *s;
+  .  
+  .  #ifndef __MINGW32__
+  .  	/* First try the location specified in the build process. */
+  6        if (access(IVL_ROOT, F_OK) != -1) {
+  5  => /build/glibc-S7xCS9/glibc-2.27/io/../sysdeps/unix/sysv/linux/access.c:access (1x)
+  .  	    assert(strlen(IVL_ROOT) < sizeof ivl_root);
+  .  	    strcpy(ivl_root, IVL_ROOT);
+  .  	    return;
+  .        }
+  .  #endif
+  .  	/* If that fails, calculate the ivl_root from the path to the
+  .  	   command. This is always necessary on Windows because of the
+  .  	   installation process, but may also be necessary on other OSs
+-- line 1021 ----------------------------------------
+-- line 1079 ----------------------------------------
+  .        if (len + strlen(s) + strlen(ivl_lib_suffix) >= (ssize_t) sizeof ivl_root) {
+  .  	    find_ivl_root_failed("module path exceeds size of string buffer.");
+  .        }
+  .        strcat(ivl_root, s);
+  .        strcat(ivl_root, ivl_lib_suffix);
+  .  }
+  .  
+  .  int main(int argc, char **argv)
+ 12  {
+  2        int e_flag = 0;
+  1        int version_flag = 0;
+  .        int opt;
+  .  
+  .        find_ivl_root();
+  1        base = ivl_root;
+  .  
+  .        get_env_vpi_module_paths();
+  .  
+  .  	/* Create a temporary file for communicating input parameters
+  .  	   to the preprocessor. */
+  7        source_path = strdup(my_tempfile("ivrlg", &source_file));
+73,595  => /home/ggx/project/hardware/iverilog_src/iverilog-dev/driver/./main.c:my_tempfile (1x)
+264  => /build/glibc-S7xCS9/glibc-2.27/string/strdup.c:strdup (1x)
+  2        if (NULL == source_file) {
+  .  	    fprintf(stderr, "%s: Error opening temporary file %s\n",
+  .  		    argv[0], source_path);
+  .  	    fprintf(stderr, "%s: Please check TMP or TMPDIR.\n", argv[0]);
+  .  	    return 1;
+  .        }
+  .  
+  7        defines_path = strdup(my_tempfile("ivrlg2", &defines_file));
+10,450  => /home/ggx/project/hardware/iverilog_src/iverilog-dev/driver/./main.c:my_tempfile (1x)
+264  => /build/glibc-S7xCS9/glibc-2.27/string/strdup.c:strdup (1x)
+  3        if (NULL == defines_file) {
+  .  	    fprintf(stderr, "%s: Error opening temporary file %s\n",
+  .  		    argv[0], defines_path);
+  .  	    fprintf(stderr, "%s: Please check TMP or TMPDIR.\n", argv[0]);
+  .  
+  .  	    fclose(source_file);
+  .  	    remove(source_path);
+  .  	    return 1;
+  .        }
+  .  
+  .        fprintf(defines_file, "D:__ICARUS__=1\n");
+  6        if (strcmp(gen_verilog_ams,"verilog-ams") == 0)
+ 21  => /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/multiarch/strcmp-sse2-unaligned.S:__strcmp_sse2_unaligned (1x)
+  .  	    fprintf(defines_file, "D:__VAMS_ENABLE__=1\n");
+  .  
+  .  	/* Create another temporary file for passing configuration
+  .  	   information to ivl. */
+  .  
+  6        if ( (iconfig_path = getenv("IVERILOG_ICONFIG")) ) {
+458  => /build/glibc-S7xCS9/glibc-2.27/stdlib/getenv.c:getenv (1x)
+  .  	    fprintf(stderr, "%s: IVERILOG_ICONFIG=%s\n",
+  .  		    argv[0], iconfig_path);
+  .  
+  .  	    iconfig_file = fopen(iconfig_path, "w");
+  .  
+  .        } else {
+  .  
+  8  	    iconfig_path = strdup(my_tempfile("ivrlh", &iconfig_file));
+264  => /build/glibc-S7xCS9/glibc-2.27/string/strdup.c:strdup (1x)
+10,453  => /home/ggx/project/hardware/iverilog_src/iverilog-dev/driver/./main.c:my_tempfile (1x)
+  .        }
+  .  
+  2        if (NULL == iconfig_file) {
+  .  	    fprintf(stderr, "%s: Error opening temporary file %s\n",
+  .  		    argv[0], iconfig_path);
+  .  	    fprintf(stderr, "%s: Please check TMP or TMPDIR.\n", argv[0]);
+  .  	    fclose(source_file);
+  .  	    remove(source_path);
+  .  
+  .  	    fclose(defines_file);
+  .  	    remove(defines_path);
+  .  	    return 1;
+  .        }
+  .  
+  .  	/* Create a temporary file (I only really need the path) that
+  .  	   can carry preprocessor precompiled defines to the library. */
+  1        { FILE*tmp_file = 0;
+  7  	compiled_defines_path = strdup(my_tempfile("ivrli", &tmp_file));
+264  => /build/glibc-S7xCS9/glibc-2.27/string/strdup.c:strdup (1x)
+10,453  => /home/ggx/project/hardware/iverilog_src/iverilog-dev/driver/./main.c:my_tempfile (1x)
+  3  	if (tmp_file) {
+  2  	      fclose(tmp_file);
+380  => /build/glibc-S7xCS9/glibc-2.27/libio/iofclose.c:fclose@@GLIBC_2.2.5 (1x)
+  .  	}
+  .        }
+  .  
+ 16        while ((opt = getopt(argc, argv, "B:c:D:d:Ef:g:hl:I:iL:M:m:N:o:P:p:Ss:T:t:uvVW:y:Y:")) != EOF) {
+923  => /build/glibc-S7xCS9/glibc-2.27/posix/getopt.c:getopt (2x)
+  .  
+  7  	    switch (opt) {
+  .  		case 'B':
+  .  		    /* The individual components can be located by a
+  .  		       single base, or by individual bases. The first
+  .  		       character of the path indicates which path the
+  .  		       user is specifying. */
+  .  		  switch (optarg[0]) {
+  .  		      case 'M': /* Path for the VPI modules */
+  .  			vpi_dir = optarg+1;
+-- line 1167 ----------------------------------------
+-- line 1296 ----------------------------------------
+  .  		  free(compiled_defines_path);
+  .  		  while( (command_filename = get_cmd_file()) ) {
+  .  			free(command_filename);
+  .  		  }
+  .  		  return 1;
+  .  	    }
+  .        }
+  .  
+  2        if (vpi_dir == 0)
+  3  	    vpi_dir = base;
+  2        if (ivlpp_dir == 0)
+  3  	    ivlpp_dir = base;
+  2        if (vhdlpp_dir == 0)
+  3  	    vhdlpp_dir = base;
+  .  
+  4        if (version_flag || verbose_flag) {
+  .  	    printf("Icarus Verilog version " VERSION " (" VERSION_TAG ")\n\n");
+  .  	    printf("Copyright 1998-2020 Stephen Williams\n\n");
+  .  	    puts(NOTICE);
+  .        }
+  .  
+  .  	/* Make a common conf file path to reflect the target. */
+  4        snprintf(iconfig_common_path, sizeof iconfig_common_path, "%s%c%s%s.conf",
+  .  	      base, sep, targ, synth_flag? "-s" : "");
+  .  
+  .  	/* Write values to the iconfig file. */
+  .        fprintf(iconfig_file, "basedir:%s\n", base);
+  .  
+  .  	/* Tell the core where to find the system VPI modules. */
+  .        fprintf(iconfig_file, "module:%s%csystem.vpi\n", vpi_dir, sep);
+  .        fprintf(iconfig_file, "module:%s%cvhdl_sys.vpi\n", vpi_dir, sep);
+  .        fprintf(iconfig_file, "module:%s%cvhdl_textio.vpi\n", vpi_dir, sep);
+  .  
+  .  	/* If verilog-2005/09/12 is enabled or icarus-misc or verilog-ams,
+  .  	 * then include the v2005_math library. */
+  7        if (strcmp(generation, "2005") == 0 ||
+ 21  => /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/multiarch/strcmp-sse2-unaligned.S:__strcmp_sse2_unaligned (1x)
+  .            strcmp(generation, "2009") == 0 ||
+  .            strcmp(generation, "2012") == 0 ||
+  .            strcmp(gen_icarus, "icarus-misc") == 0 ||
+  .            strcmp(gen_verilog_ams, "verilog-ams") == 0) {
+  .  	    fprintf(iconfig_file, "module:%s%cv2005_math.vpi\n", vpi_dir, sep);
+  .        }
+  .  	/* If verilog-ams or icarus_misc is enabled, then include the
+  .  	 * va_math module as well. */
+  8        if (strcmp(gen_verilog_ams,"verilog-ams") == 0 ||
+ 21  => /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/multiarch/strcmp-sse2-unaligned.S:__strcmp_sse2_unaligned (1x)
+  4            strcmp(gen_icarus, "icarus-misc") == 0) {
+ 21  => /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/multiarch/strcmp-sse2-unaligned.S:__strcmp_sse2_unaligned (1x)
+  .  	    fprintf(iconfig_file, "module:%s%cva_math.vpi\n", vpi_dir, sep);
+  .        }
+  .        /* If verilog-2009 (SystemVerilog) is enabled, then include the
+  .           v2009 module. */
+  8        if (strcmp(generation, "2005-sv") == 0 ||
+ 21  => /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/multiarch/strcmp-sse2-unaligned.S:__strcmp_sse2_unaligned (1x)
+  6            strcmp(generation, "2009") == 0 ||
+ 21  => /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/multiarch/strcmp-sse2-unaligned.S:__strcmp_sse2_unaligned (1x)
+  4            strcmp(generation, "2012") == 0) {
+ 21  => /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/multiarch/strcmp-sse2-unaligned.S:__strcmp_sse2_unaligned (1x)
+  .  	    fprintf(iconfig_file, "module:%s%cv2009.vpi\n", vpi_dir, sep);
+  .        }
+  .  
+  3        if (mtm != 0) fprintf(iconfig_file, "-T:%s\n", mtm);
+  .        fprintf(iconfig_file, "generation:%s\n", generation);
+  .        fprintf(iconfig_file, "generation:%s\n", gen_specify);
+  .        fprintf(iconfig_file, "generation:%s\n", gen_assertions);
+  .        fprintf(iconfig_file, "generation:%s\n", gen_xtypes);
+  .        fprintf(iconfig_file, "generation:%s\n", gen_io_range_error);
+  .        fprintf(iconfig_file, "generation:%s\n", gen_strict_ca_eval);
+  .        fprintf(iconfig_file, "generation:%s\n", gen_strict_expr_width);
+  .        fprintf(iconfig_file, "generation:%s\n", gen_shared_loop_index);
+  .        fprintf(iconfig_file, "generation:%s\n", gen_verilog_ams);
+  .        fprintf(iconfig_file, "generation:%s\n", gen_icarus);
+  .        fprintf(iconfig_file, "warnings:%s\n", warning_flags);
+  4        fprintf(iconfig_file, "ignore_missing_modules:%s\n", ignore_missing_modules ? "true" : "false");
+  .        fprintf(iconfig_file, "out:%s\n", opath);
+  3        if (depfile) {
+  .              fprintf(iconfig_file, "depfile:%s\n", depfile);
+  .              fprintf(iconfig_file, "depmode:%c\n", depmode);
+  .        }
+  .  
+  1        while ( (command_filename = get_cmd_file()) ) {
+  .  	    int rc;
+  .  
+  2  	    if (( fp = fopen(command_filename, "r")) == NULL ) {
+  .  		  fprintf(stderr, "%s: cannot open command file %s "
+  .  			  "for reading.\n", argv[0], command_filename);
+  .  		  return 1;
+  .  	    }
+  .  
+  .  	    cfreset(fp, command_filename);
+  .  	    rc = cfparse();
+  .  	    if (rc != 0) {
+  .  		  fprintf(stderr, "%s: parsing failed in base command "
+  .  		          "file %s.\n", argv[0], command_filename);
+  .  		  return 1;
+  .  	    }
+  .              free(command_filename);
+  .              fclose(fp);
+  .        }
+  1        destroy_lexor();
+ 52  => /home/ggx/project/hardware/iverilog_src/iverilog-dev/driver/cflexor.lex:destroy_lexor (1x)
+  .  
+  3        if (depfile) {
+  .  	    fprintf(defines_file, "M%c:%s\n", depmode, depfile);
+  .        }
+  .  
+  2        if (vhdlpp_work == 0)
+  3  	    vhdlpp_work = "ivl_vhdl_work";
+  .        fprintf(defines_file, "vhdlpp:%s%cvhdlpp\n", vhdlpp_dir, sep);
+  .        fprintf(defines_file, "vhdlpp-work:%s\n", vhdlpp_work);
+  5        for (unsigned idx = 0 ; idx < vhdlpp_libdir_cnt ; idx += 1)
+  .  	    fprintf(defines_file, "vhdlpp-libdir:%s\n", vhdlpp_libdir[idx]);
+  .  
+  .      /* Process parameter definition from command line. The last
+  .         defined would override previous ones. */
+  .        int pitr;
+  3        for (pitr = 0; pitr < defparm_size; pitr++)
+  .          process_parameter(defparm_base[pitr]);
+  2        free(defparm_base);
+ 28  => /build/glibc-S7xCS9/glibc-2.27/malloc/malloc.c:free (1x)
+  1        defparm_base = 0;
+  2        defparm_size = 0;
+  .  
+  .  	/* Finally, process all the remaining words on the command
+  .  	   line as file names. */
+  7        for (int idx = optind ;  idx < argc ;  idx += 1)
+  8  	    process_file_name(argv[idx], 0);
+1,647  => /home/ggx/project/hardware/iverilog_src/iverilog-dev/driver/./main.c:process_file_name (2x)
+  .  
+  .  	/* If the use of a default include directory is not
+  .  	   specifically disabled, then write that directory as the
+  .  	   very last include directory to use... always. */
+  2        if (gen_std_include) {
+  .  	    fprintf(defines_file, "I:%s%cinclude\n", base, sep);
+  .        }
+  .  
+  3        if (gen_relative_include) {
+  .  	    fprintf(defines_file, "relative include:true\n");
+  .        } else {
+  .  	    fprintf(defines_file, "relative include:false\n");
+  .        }
+  .  
+  3        fclose(source_file);
+634  => /build/glibc-S7xCS9/glibc-2.27/libio/iofclose.c:fclose@@GLIBC_2.2.5 (1x)
+  1        source_file = 0;
+  .  
+  3        fclose(defines_file);
+636  => /build/glibc-S7xCS9/glibc-2.27/libio/iofclose.c:fclose@@GLIBC_2.2.5 (1x)
+  1        defines_file = 0;
+  .  
+  .  	/* If we are planning on opening a dependencies file, then
+  .  	   open and truncate it here. The other phases of compilation
+  .  	   will append to the file, so this is necessary to make sure
+  .  	   it starts out empty. */
+  3        if (depfile) {
+  .              FILE *fd = fopen(depfile, "w");
+  .              if (!fd) {
+  .                    fprintf(stderr, "%s: can't open %s file.\n\n%s\n", argv[0], depfile, HELP);
+  .                    return 1;
+  .              }
+  .              fclose(fd);
+  .        }
+  .  
+  3        if (source_count == 0 && !version_flag) {
+  .  	    fprintf(stderr, "%s: no source files.\n\n%s\n", argv[0], HELP);
+  .  	    return 1;
+  .        }
+  .  
+  .        fprintf(iconfig_file, "iwidth:%u\n", integer_width);
+  .  
+  .        fprintf(iconfig_file, "widthcap:%u\n", width_cap);
+  .  
+  .  	/* Write the preprocessor command needed to preprocess a
+  .  	   single file. This may be used to preprocess library
+  .  	   files. */
+  5        fprintf(iconfig_file, "ivlpp:%s%civlpp %s -L -F\"%s\" -P\"%s\"\n",
+  .  	      ivlpp_dir, sep,
+  4                strchr(warning_flags, 'r') ? "-Wredef-all" :
+ 21  => /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/multiarch/strchr-avx2.S:__strchr_avx2 (1x)
+  9                strchr(warning_flags, 'R') ? "-Wredef-chg" : "",
+ 21  => /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/multiarch/strchr-avx2.S:__strchr_avx2 (1x)
+  .                defines_path, compiled_defines_path
+  .        );
+  .  
+  .  	/* Done writing to the iconfig file. Close it now. */
+  3        fclose(iconfig_file);
+623  => /build/glibc-S7xCS9/glibc-2.27/libio/iofclose.c:fclose@@GLIBC_2.2.5 (1x)
+  .  
+  .  	/* If we're only here for the version output, then we're done. */
+  4        if (version_flag)
+  .  	    return t_version_only();
+  .  
+  .  	/* If the -E flag was given on the command line, then all we
+  .  	   do is run the preprocessor and put the output where the
+  .  	   user wants it. */
+  2        if (e_flag)
+  .  	    return t_preprocess_only();
+  .  
+  .  	/* Otherwise, this is a full compile. */
+  1        return t_compile();
+ 12  }
+
+--------------------------------------------------------------------------------
+The following files chosen for auto-annotation could not be found:
+--------------------------------------------------------------------------------
+  /build/glibc-S7xCS9/glibc-2.27/string/../bits/stdlib-bsearch.h
+  /build/glibc-S7xCS9/glibc-2.27/stdlib/../sysdeps/posix/system.c
+  /build/glibc-S7xCS9/glibc-2.27/elf/../elf/dl-runtime.c
+  /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/multiarch/strchr-avx2.S
+  /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86/cacheinfo.c
+  /build/glibc-S7xCS9/glibc-2.27/libio/libioP.h
+  /build/glibc-S7xCS9/glibc-2.27/string/strdup.c
+  /build/glibc-S7xCS9/glibc-2.27/stdio-common/../libio/libioP.h
+  /build/glibc-S7xCS9/glibc-2.27/stdlib/getenv.c
+  /build/glibc-S7xCS9/glibc-2.27/stdio-common/printf-parse.h
+  /build/glibc-S7xCS9/glibc-2.27/elf/dl-environ.c
+  /build/glibc-S7xCS9/glibc-2.27/elf/../elf/dl-tls.c
+  /build/glibc-S7xCS9/glibc-2.27/elf/../sysdeps/unix/sysv/linux/dl-sysdep.c
+  /build/glibc-S7xCS9/glibc-2.27/io/../sysdeps/unix/sysv/linux/open64.c
+  /build/glibc-S7xCS9/glibc-2.27/elf/do-rel.h
+  /build/glibc-S7xCS9/glibc-2.27/libio/strops.c
+  /build/glibc-S7xCS9/glibc-2.27/stdlib/exit.c
+  /build/glibc-S7xCS9/glibc-2.27/debug/../libio/libioP.h
+  /build/glibc-S7xCS9/glibc-2.27/setjmp/../sysdeps/x86_64/setjmp.S
+  /build/glibc-S7xCS9/glibc-2.27/io/../sysdeps/unix/sysv/linux/wordsize-64/xstat.c
+  /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/multiarch/../strchr.S
+  /build/glibc-S7xCS9/glibc-2.27/libio/iofwrite.c
+  /build/glibc-S7xCS9/glibc-2.27/elf/../sysdeps/x86_64/dl-trampoline.h
+  /build/glibc-S7xCS9/glibc-2.27/elf/dl-misc.c
+  /build/glibc-S7xCS9/glibc-2.27/elf/dl-version.c
+  /build/glibc-S7xCS9/glibc-2.27/elf/dl-lookup.c
+  /build/glibc-S7xCS9/glibc-2.27/elf/dl-deps.c
+  /build/glibc-S7xCS9/glibc-2.27/elf/../elf/dl-sysdep.c
+  /build/glibc-S7xCS9/glibc-2.27/elf/dl-hwcaps.c
+  /build/glibc-S7xCS9/glibc-2.27/debug/snprintf_chk.c
+  /build/glibc-S7xCS9/glibc-2.27/io/../sysdeps/unix/sysv/linux/fcntl.c
+  /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/strcspn.S
+  /build/glibc-S7xCS9/glibc-2.27/elf/../sysdeps/x86_64/dl-machine.h
+  /build/glibc-S7xCS9/glibc-2.27/stdlib/random.c
+  /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/multiarch/strcmp-sse42.S
+  /build/glibc-S7xCS9/glibc-2.27/elf/./dl-map-segments.h
+  /build/glibc-S7xCS9/glibc-2.27/libio/iofdopen.c
+  /build/glibc-S7xCS9/glibc-2.27/elf/dl-fini.c
+  /build/glibc-S7xCS9/glibc-2.27/elf/dl-init.c
+  /build/glibc-S7xCS9/glibc-2.27/elf/dl-object.c
+  /build/glibc-S7xCS9/glibc-2.27/libio/filedoalloc.c
+  /build/glibc-S7xCS9/glibc-2.27/elf/../sysdeps/x86/cpu-features.c
+  /build/glibc-S7xCS9/glibc-2.27/elf/get-dynamic-info.h
+  /build/glibc-S7xCS9/glibc-2.27/stdlib/cxa_finalize.c
+  /build/glibc-S7xCS9/glibc-2.27/elf/dl-tunables.c
+  /build/glibc-S7xCS9/glibc-2.27/debug/vsnprintf_chk.c
+  /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/multiarch/../strlen.S
+  /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/multiarch/strcmp-sse2-unaligned.S
+  /build/glibc-S7xCS9/glibc-2.27/stdio-common/_itoa.c
+  /build/glibc-S7xCS9/glibc-2.27/malloc/malloc.c
+  /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/multiarch/memset-vec-unaligned-erms.S
+  /build/glibc-S7xCS9/glibc-2.27/elf/dl-sort-maps.c
+  /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/multiarch/strlen-avx2.S
+  /build/glibc-S7xCS9/glibc-2.27/elf/dl-tunables.h
+  /build/glibc-S7xCS9/glibc-2.27/elf/../sysdeps/generic/ldsodefs.h
+  /build/glibc-S7xCS9/glibc-2.27/signal/../sysdeps/unix/sysv/linux/x86_64/sigaction.c
+  /build/glibc-S7xCS9/glibc-2.27/misc/../sysdeps/unix/sysv/linux/mmap64.c
+  /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/strcmp.S
+  /build/glibc-S7xCS9/glibc-2.27/string/../sysdeps/x86_64/multiarch/memmove-vec-unaligned-erms.S
+  /build/glibc-S7xCS9/glibc-2.27/stdio-common/vfprintf.c
+  /build/glibc-S7xCS9/glibc-2.27/stdlib/random_r.c
+  /build/glibc-S7xCS9/glibc-2.27/elf/dl-minimal.c
+  /build/glibc-S7xCS9/glibc-2.27/malloc/arena.c
+  /build/glibc-S7xCS9/glibc-2.27/libio/iofclose.c
+  /build/glibc-S7xCS9/glibc-2.27/libio/genops.c
+  /build/glibc-S7xCS9/glibc-2.27/elf/dl-load.c
+  /build/glibc-S7xCS9/glibc-2.27/debug/fprintf_chk.c
+  /build/glibc-S7xCS9/glibc-2.27/elf/dl-reloc.c
+  /build/glibc-S7xCS9/glibc-2.27/libio/fileops.c
+  /build/glibc-S7xCS9/glibc-2.27/elf/dl-cache.c
+  /build/glibc-S7xCS9/glibc-2.27/elf/rtld.c
+  /build/glibc-S7xCS9/glibc-2.27/elf/dl-error-skeleton.c
+  /build/glibc-S7xCS9/glibc-2.27/posix/getopt.c
+  /build/glibc-S7xCS9/glibc-2.27/elf/dl-addr.c
+
+--------------------------------------------------------------------------------
+Ir 
+--------------------------------------------------------------------------------
+ 0  percentage of events annotated
+

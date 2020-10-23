@@ -1,0 +1,4 @@
+
+
+*.out.*
+test_result/callgrind.out/*

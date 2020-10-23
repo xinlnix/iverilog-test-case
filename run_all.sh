@@ -11,7 +11,7 @@ for case in $case_list
         echo $case >>temp.txt
         echo $case
 
-        iverilog $case >>temp.txt
+        time iverilog $case >>temp.txt
         # iverilog $case -d driverConflict 2&>>temp.txt # danger: mem overflow
         count=$(($count+1))
     done
