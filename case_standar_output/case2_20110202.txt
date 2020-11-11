@@ -1,0 +1,275 @@
+
+./case1011/case2/has_multi_driver/case1/3.v
+begin driver conflict check:
+Multi-driver check: cb_huff.data_ready, 0, ./case1011/case2/has_multi_driver/case1/3.v, scope:cb_huff, #263, #280, #2257
+933 net map line size:  all size: 1736
+./case1011/case2/has_multi_driver/case1/5.v
+begin driver conflict check:
+Multi-driver check: cr_huff.JPEG_bitstream, 2:3, ./case1011/case2/has_multi_driver/case1/5.v, scope:cr_huff, #2218, #2220, #2222, #2228, #2230, #2232, #2258, #2260, #2262
+933 net map line size:  all size: 1738
+./case1011/case2/has_multi_driver/case1/6.v
+begin driver conflict check:
+Multi-driver check: bshift.c_to_alu, 0, ./case1011/case2/has_multi_driver/case1/6.v, scope:bshift, #34, #35, #42, #49, #56, #64, #72, #73, #80, #81, #87, #94, #101, #107
+6 net map line size:  all size: 49
+./case1011/case2/has_multi_driver/case1/7.v
+begin driver conflict check:
+Multi-driver check: y_dct.Z37_final, 0:10, ./case1011/case2/has_multi_driver/case1/7.v, scope:y_dct, #300, #335, #846, #849
+306 net map line size:  all size: 783
+./case1011/case2/has_multi_driver/case1/4.v
+begin driver conflict check:
+Multi-driver check: cr_dct.Z38_final, 0:10, ./case1011/case2/has_multi_driver/case1/4.v, scope:cr_dct, #301, #337, #848
+306 net map line size:  all size: 782
+./case1011/case2/has_multi_driver/case1/8.v
+begin driver conflict check:
+Multi-driver check: y_huff.end_of_block_output, 0, ./case1011/case2/has_multi_driver/case1/8.v, scope:y_huff, #265, #282, #2256, #2258
+933 net map line size:  all size: 1737
+./case1011/case2/has_multi_driver/case1/9.v
+begin driver conflict check:
+Multi-driver check: y_quantizer.Q31, 0:10, ./case1011/case2/has_multi_driver/case1/9.v, scope:y_quantizer, #534, #559, #631, #634
+261 net map line size:  all size: 586
+./case1011/case2/has_multi_driver/case1/1.v
+begin driver conflict check:
+Multi-driver check: alu.result, 0:31, ./case1011/case2/has_multi_driver/case1/1.v, scope:alu, #49, #55, #62, #63, #72, #73, #81, #82, #90, #91, #100, #101, #110, #111, #119, #126, #134, #135, #143, #144, #152, #159, #166, #173, #185
+7 net map line size:  all size: 89
+./case1011/case2/has_multi_driver/case1/10.v
+begin driver conflict check:
+Multi-driver check: arm9_compatiable_code.ram_wdata, 0:31, ./case1011/case2/has_multi_driver/case1/10.v, scope:arm9_compatiable_code, #1317, #1319, #1321, #1323, #1325, #1327, #1329, #1331, #1333, #1335, #1337, #1339, #1341, #1343, #1345, #1347, #1349, #1352, #1354, #1356, #1358, #1872, #1874, #1876, #1878, #1880, #1882, #1884, #1886, #1888, #1890, #1892, #1894, #1896, #1898, #1900, #1902, #1904, #1907, #1909, #1911, #1913
+93 net map line size:  all size: 569
+./case1011/case2/has_multi_driver/case1/2.v
+begin driver conflict check:
+Multi-driver check: cb_dct.Z85_final, 0:10, ./case1011/case2/has_multi_driver/case1/2.v, scope:cb_dct, #311, #374, #848
+306 net map line size:  all size: 782
+./case1011/case2/has_multi_driver/case4/9_for_loop.v
+begin driver conflict check:
+Multi-driver check: crc.crc, 0:7, ./case1011/case2/has_multi_driver/case4/9_for_loop.v, scope:crc, #20, #25, #30, #36, #44
+3 net map line size:  all size: 10
+./case1011/case2/has_multi_driver/case4/6_for_loop.v
+begin driver conflict check:
+Multi-driver check: mult_tp.b, 0:7, ./case1011/case2/has_multi_driver/case4/6_for_loop.v, scope:mult_tp, #19, scope:, #11, #25
+3 net map line size:  all size: 764
+./case1011/case2/has_multi_driver/case4/1_for_loop.v
+begin driver conflict check:
+Multi-driver check: adder_tp.a, 0:3, ./case1011/case2/has_multi_driver/case4/1_for_loop.v, scope:adder_tp, #23, #25, scope:, #37
+Multi-driver check: adder_tp.b, 0:3, ./case1011/case2/has_multi_driver/case4/1_for_loop.v, scope:adder_tp, #23, scope:, #31
+5 net map line size:  all size: 48
+./case1011/case2/has_multi_driver/case4/8_for_loop.v
+begin driver conflict check:
+Multi-driver check: cycle.c, 0:3, ./case1011/case2/has_multi_driver/case4/8_for_loop.v, scope:cycle, #16, #33
+Multi-driver check: cycle.d0, 0, ./case1011/case2/has_multi_driver/case4/8_for_loop.v, scope:cycle, #11, #16, #22, #28, #33
+Multi-driver check: cycle.d1, 0, ./case1011/case2/has_multi_driver/case4/8_for_loop.v, scope:cycle, #11, #15, #21, #28, #32
+Multi-driver check: cycle.d2, 0, ./case1011/case2/has_multi_driver/case4/8_for_loop.v, scope:cycle, #11, #15, #21, #28, #32
+Multi-driver check: cycle.temp, 0, ./case1011/case2/has_multi_driver/case4/8_for_loop.v, scope:cycle, #14, #20, #31
+10 net map line size:  all size: 61
+./case1011/case2/has_multi_driver/case4/7_for_loop.v
+begin driver conflict check:
+Multi-driver check: mac_tp.opa, 0:7, ./case1011/case2/has_multi_driver/case4/7_for_loop.v, scope:mac_tp, #45, scope:, #59, #58, #57, #56, #55, #54, #53, #52, #51, #50, #49
+6 net map line size:  all size: 37
+./case1011/case2/has_multi_driver/case4/0_for_loop.v
+begin driver conflict check:
+Multi-driver check: decoder2.c_buf, 6, ./case1011/case2/has_multi_driver/case4/0_for_loop.v, scope:decoder2, #14, #37
+9 net map line size:  all size: 107
+./case1011/case2/has_multi_driver/case4/5_for_loop.v
+begin driver conflict check:
+Multi-driver check: random_tp.data, 0:31, ./case1011/case2/has_multi_driver/case4/5_for_loop.v, scope:random_tp, #11, scope:, #16
+2 net map line size:  all size: 202
+./case1011/case2/has_multi_driver/case4/2_for_loop.v
+begin driver conflict check:
+Multi-driver check: alutask.c, 0:4, ./case1011/case2/has_multi_driver/case4/2_for_loop.v, scope:alutask, #21, #24, #25, #26, #33, #40
+3 net map line size:  all size: 16
+./case1011/case2/has_multi_driver/case4/3_for_loop.v
+begin driver conflict check:
+Multi-driver check: funct.result, 0:31, ./case1011/case2/has_multi_driver/case4/3_for_loop.v, scope:funct, #10, #12, #18, #21
+2 net map line size:  all size: 6
+./case1011/case2/has_multi_driver/case3/01_timer.v
+begin driver conflict check:
+Multi-driver check: timer.u1.count, 0:20, ./case1011/case2/has_multi_driver/case3/01_timer.v, scope:timer.u1, #60, #63, scope:, #53
+Multi-driver check: timer.u1.temp2, 0, ./case1011/case2/has_multi_driver/case3/01_timer.v, scope:timer.u1, #58, scope:, #54
+Multi-driver check: timer.u2.this_time, 0:23, ./case1011/case2/has_multi_driver/case3/01_timer.v, scope:timer.u2, #74, #79, #97, #100, #101, #104, #105, #108, #109, #112, #113, #116, #117, #120
+Multi-driver check: timer.u3.count, 0:15, ./case1011/case2/has_multi_driver/case3/01_timer.v, scope:timer.u3, #140, #143, scope:, #132
+Multi-driver check: timer.u3.temp, 0:5, ./case1011/case2/has_multi_driver/case3/01_timer.v, scope:timer.u3, #138, scope:, #133
+13 net map line size:  all size: 92
+./case1011/case2/has_multi_driver/case3/09_select.v
+begin driver conflict check:
+Multi-driver check: test_ALU_8.a.ZF, 0, ./case1011/case2/has_multi_driver/case3/09_select.v, scope:test_ALU_8.a, #48, #57
+13 net map line size:  all size: 83
+./case1011/case2/has_multi_driver/case3/06_topmodule.v
+begin driver conflict check:
+Multi-driver check: topmodule.DMEM.M0.mem, 0, 0:31, ./case1011/case2/has_multi_driver/case3/06_topmodule.v, scope:topmodule.DMEM.M0, #455, scope:, #469
+Multi-driver check: topmodule.DMEM.M1.mem, 0, 0:31, ./case1011/case2/has_multi_driver/case3/06_topmodule.v, scope:topmodule.DMEM.M1, #455, scope:, #469
+Multi-driver check: topmodule.DMEM.M2.mem, 0, 0:31, ./case1011/case2/has_multi_driver/case3/06_topmodule.v, scope:topmodule.DMEM.M2, #455, scope:, #469
+Multi-driver check: topmodule.DMEM.M3.mem, 0, 0:31, ./case1011/case2/has_multi_driver/case3/06_topmodule.v, scope:topmodule.DMEM.M3, #455, scope:, #469
+Multi-driver check: topmodule.DMEM.M4.mem, 0, 0:31, ./case1011/case2/has_multi_driver/case3/06_topmodule.v, scope:topmodule.DMEM.M4, #455, scope:, #469
+Multi-driver check: topmodule.DMEM.M5.mem, 0, 0:31, ./case1011/case2/has_multi_driver/case3/06_topmodule.v, scope:topmodule.DMEM.M5, #455, scope:, #469
+Multi-driver check: topmodule.DMEM.M6.mem, 0, 0:31, ./case1011/case2/has_multi_driver/case3/06_topmodule.v, scope:topmodule.DMEM.M6, #455, scope:, #469
+Multi-driver check: topmodule.DMEM.M7.mem, 0, 0:31, ./case1011/case2/has_multi_driver/case3/06_topmodule.v, scope:topmodule.DMEM.M7, #455, scope:, #469
+Multi-driver check: topmodule.IDEC.vx_select, 0:2, ./case1011/case2/has_multi_driver/case3/06_topmodule.v, scope:topmodule.IDEC, #74, #81, #96
+Multi-driver check: topmodule.VREGS.vx, 0:31, ./case1011/case2/has_multi_driver/case3/06_topmodule.v, scope:topmodule.VREGS, #231, scope:, #242, #240
+96 net map line size:  all size: 496
+./case1011/case2/has_multi_driver/case3/08_bomb.v
+begin driver conflict check:
+Multi-driver check: bomb.out1, 0:3, ./case1011/case2/has_multi_driver/case3/08_bomb.v, scope:bomb, #75, #80, #84, #88, #92, #96, #100
+24 net map line size:  all size: 87
+./case1011/case2/has_multi_driver/case3/03_keybd.v
+begin driver conflict check:
+Multi-driver check: ps2_keyboard.ready, 0, ./case1011/case2/has_multi_driver/case3/03_keybd.v, scope:ps2_keyboard, #62, #76, #118
+13 net map line size:  all size: 36
+./case1011/case2/has_multi_driver/case3/05_inner_product.v
+begin driver conflict check:
+Multi-driver check: inner_product_tb.my_inner_product_test.count, 0:9, ./case1011/case2/has_multi_driver/case3/05_inner_product.v, scope:inner_product_tb.my_inner_product_test, #89, scope:, #86
+3 net map line size:  all size: 3
+./case1011/case2/has_multi_driver/case5/1_memory.v
+begin driver conflict check:
+Multi-driver check: MiaoBiao_Top.myFreq.clk100Hz, 0, ./case1011/case2/has_multi_driver/case5/1_memory.v, scope:MiaoBiao_Top.myFreq, #67, #68, #73, #74
+Multi-driver check: MiaoBiao_Top.myFreq.cnt100Hz, 0:19, ./case1011/case2/has_multi_driver/case5/1_memory.v, scope:MiaoBiao_Top.myFreq, #66, #67, #73
+32 net map line size:  all size: 876
+./case1011/case2/has_multi_driver/case5/5_memory.v
+begin driver conflict check:
+Multi-driver check: ServoUnit.angle_counter, 0:10, ./case1011/case2/has_multi_driver/case5/5_memory.v, scope:ServoUnit, #39, scope:, #33
+Multi-driver check: ServoUnit.divcounter, 0:6, ./case1011/case2/has_multi_driver/case5/5_memory.v, scope:ServoUnit, #22, #24, scope:, #11
+Multi-driver check: ServoUnit.tic, 0, ./case1011/case2/has_multi_driver/case5/5_memory.v, scope:ServoUnit, #17, scope:, #12
+Multi-driver check: ServoUnit.tmp, 2:3, ./case1011/case2/has_multi_driver/case5/5_memory.v, scope:ServoUnit, #27, #30
+9 net map line size:  all size: 10
+./case1011/case2/has_multi_driver/case5/2_memory.v
+begin driver conflict check:
+Multi-driver check: dit.butterfly_0.m, 0, 0:10, ./case1011/case2/has_multi_driver/case5/2_memory.v, scope:dit.butterfly_0, #683, #745
+Multi-driver check: dit.bufferin_addr, 0:3, ./case1011/case2/has_multi_driver/case5/2_memory.v, scope:dit, #108, #125, scope:, #97
+Multi-driver check: dit.bufferin_full0_A, 0, ./case1011/case2/has_multi_driver/case5/2_memory.v, scope:dit, #109, #132, scope:, #98
+Multi-driver check: dit.bufferin_full0_B, 0, ./case1011/case2/has_multi_driver/case5/2_memory.v, scope:dit, #317, #382, scope:, #303
+Multi-driver check: dit.bufferin_full1_A, 0, ./case1011/case2/has_multi_driver/case5/2_memory.v, scope:dit, #110, #130, scope:, #99
+Multi-driver check: dit.bufferin_full1_B, 0, ./case1011/case2/has_multi_driver/case5/2_memory.v, scope:dit, #318, #380, scope:, #304
+Multi-driver check: dit.bufferin_read_switch, 0, ./case1011/case2/has_multi_driver/case5/2_memory.v, scope:dit, #316, #383, scope:, #302
+Multi-driver check: dit.bufferin_write_switch, 0, ./case1011/case2/has_multi_driver/case5/2_memory.v, scope:dit, #111, #128, scope:, #100
+Multi-driver check: dit.bufferout_addr, 0:3, ./case1011/case2/has_multi_driver/case5/2_memory.v, scope:dit, #158, #168, scope:, #149
+Multi-driver check: dit.bufferout_full_A, 0, ./case1011/case2/has_multi_driver/case5/2_memory.v, scope:dit, #496, #520, scope:, #488
+Multi-driver check: dit.bufferout_full_B, 0, ./case1011/case2/has_multi_driver/case5/2_memory.v, scope:dit, #159, #170, scope:, #150
+Multi-driver check: dit.fsm_state, 0:1, ./case1011/case2/has_multi_driver/case5/2_memory.v, scope:dit, #312, #342, #357, #367, #426, #430, #439, scope:, #298
+Multi-driver check: dit.out1_addr_z_old, 0, ./case1011/case2/has_multi_driver/case5/2_memory.v, scope:dit, #516, #549
+Multi-driver check: dit.out_nd, 0, ./case1011/case2/has_multi_driver/case5/2_memory.v, scope:dit, #160, #167, #173, scope:, #151
+Multi-driver check: dit.overflow, 0, ./case1011/case2/has_multi_driver/case5/2_memory.v, scope:dit, #112, #120, scope:, #101
+Multi-driver check: dit.readbuf_switch, 0, ./case1011/case2/has_multi_driver/case5/2_memory.v, scope:dit, #315, #393, scope:, #301
+Multi-driver check: dit.tf_addr_nd, 0, ./case1011/case2/has_multi_driver/case5/2_memory.v, scope:dit, #313, #339, #354, #368, #415, scope:, #299
+Multi-driver check: dit.x_nd, 0, ./case1011/case2/has_multi_driver/case5/2_memory.v, scope:dit, #314, #340, #358, #369, #420, scope:, #300
+Multi-driver check: dit.z_nd_last, 0, ./case1011/case2/has_multi_driver/case5/2_memory.v, scope:dit, #497, #517, scope:, #489
+77 net map line size:  all size: 119
+./case1011/case2/has_multi_driver/case5/4_memory.v
+begin driver conflict check:
+Multi-driver check: MeanFilter.pipe[0].sum, 1, 0:16, ./case1011/case2/has_multi_driver/case5/4_memory.v, scope:MeanFilter.pipe[0].genblk5[1].genblk8, #165, #169
+Multi-driver check: MeanFilter.pipe[0].sum, 2, 0:16, ./case1011/case2/has_multi_driver/case5/4_memory.v, scope:MeanFilter.pipe[0].genblk5[2].genblk8, #165, #169
+Multi-driver check: MeanFilter.pipe[0].sum, 3, 0:16, ./case1011/case2/has_multi_driver/case5/4_memory.v, scope:MeanFilter.pipe[0].genblk5[3].genblk8, #165, #169
+21 net map line size:  all size: 23
+./case1011/case2/has_multi_driver/case2/forloop_4_error.v
+begin driver conflict check:
+Multi-driver check: paobiao.MSH_T, 0, 1:3, ./case1011/case2/has_multi_driver/case2/forloop_4_error.v, scope:paobiao, #21, #44
+Multi-driver check: paobiao.MSH_T, 1, 2:3, ./case1011/case2/has_multi_driver/case2/forloop_4_error.v, scope:paobiao, #21, #44
+12 net map line size:  all size: 37
+./case1011/case2/has_multi_driver/case2/forloop_2_error.v
+begin driver conflict check:
+Multi-driver check: clock.hour1, 0:3, ./case1011/case2/has_multi_driver/case2/forloop_2_error.v, scope:clock, #108, #112, #114, #118
+33 net map line size:  all size: 94
+./case1011/case2/has_multi_driver/case2/forloop_10_error.v
+begin driver conflict check:
+Multi-driver check: mult4x4.out_t, 0, 0:3, ./case1011/case2/has_multi_driver/case2/forloop_10_error.v, scope:mult4x4, #29, #35
+Multi-driver check: mult4x4.out_t, 1, 0:3, ./case1011/case2/has_multi_driver/case2/forloop_10_error.v, scope:mult4x4, #29, #35
+Multi-driver check: mult4x4.out_t, 2, 0:3, ./case1011/case2/has_multi_driver/case2/forloop_10_error.v, scope:mult4x4, #29, #35
+Multi-driver check: mult4x4.out_t, 3, 0:3, ./case1011/case2/has_multi_driver/case2/forloop_10_error.v, scope:mult4x4, #29, #35
+21 net map line size:  all size: 125
+./case1011/case2/has_multi_driver/case2/free_config_cache.v
+begin driver conflict check:
+Multi-driver check: cache.config_ctrl.set0.ram_tag.mem, 0, 0:15, ./case1011/case2/has_multi_driver/case2/free_config_cache.v, scope:cache.config_ctrl.set0.ram_tag, #945, scope:, #920
+Multi-driver check: cache.config_ctrl.set1.ram_tag.mem, 0, 0:15, ./case1011/case2/has_multi_driver/case2/free_config_cache.v, scope:cache.config_ctrl.set1.ram_tag, #945, scope:, #920
+Multi-driver check: cache.config_ctrl.set2.ram_tag.mem, 0, 0:15, ./case1011/case2/has_multi_driver/case2/free_config_cache.v, scope:cache.config_ctrl.set2.ram_tag, #945, scope:, #920
+Multi-driver check: cache.config_ctrl.set3.ram_tag.mem, 0, 0:15, ./case1011/case2/has_multi_driver/case2/free_config_cache.v, scope:cache.config_ctrl.set3.ram_tag, #945, scope:, #920
+Multi-driver check: cache.config_ctrl.set4.ram_tag.mem, 0, 0:15, ./case1011/case2/has_multi_driver/case2/free_config_cache.v, scope:cache.config_ctrl.set4.ram_tag, #945, scope:, #920
+Multi-driver check: cache.config_ctrl.set5.ram_tag.mem, 0, 0:15, ./case1011/case2/has_multi_driver/case2/free_config_cache.v, scope:cache.config_ctrl.set5.ram_tag, #945, scope:, #920
+Multi-driver check: cache.config_ctrl.set6.ram_tag.mem, 0, 0:15, ./case1011/case2/has_multi_driver/case2/free_config_cache.v, scope:cache.config_ctrl.set6.ram_tag, #945, scope:, #920
+Multi-driver check: cache.config_ctrl.set7.ram_tag.mem, 0, 0:15, ./case1011/case2/has_multi_driver/case2/free_config_cache.v, scope:cache.config_ctrl.set7.ram_tag, #945, scope:, #920
+Multi-driver check: cache.ram_hot.mem, 0, 0:7, ./case1011/case2/has_multi_driver/case2/free_config_cache.v, scope:cache.ram_hot, #945, scope:, #118
+310 net map line size:  all size: 5071
+./case1011/case2/has_multi_driver/case2/case6.v
+begin driver conflict check:
+Multi-driver check: async_receiver.tickgen.Acc, 0:16, ./case1011/case2/has_multi_driver/case2/case6.v, scope:async_receiver.tickgen, #197, scope:, #194
+Multi-driver check: async_receiver.Filter_cnt, 0:1, ./case1011/case2/has_multi_driver/case2/case6.v, scope:async_receiver, #121, #123, scope:, #115
+Multi-driver check: async_receiver.GapCnt, 0:5, ./case1011/case2/has_multi_driver/case2/case6.v, scope:async_receiver, #169, scope:, #168
+Multi-driver check: async_receiver.OversamplingCnt, 0:2, ./case1011/case2/has_multi_driver/case2/case6.v, scope:async_receiver, #134, scope:, #133
+Multi-driver check: async_receiver.RxD_bit, 0, ./case1011/case2/has_multi_driver/case2/case6.v, scope:async_receiver, #125, #127, scope:, #116
+Multi-driver check: async_receiver.RxD_data, 0:7, ./case1011/case2/has_multi_driver/case2/case6.v, scope:async_receiver, #156, scope:, #78
+Multi-driver check: async_receiver.RxD_data_ready, 0, ./case1011/case2/has_multi_driver/case2/case6.v, scope:async_receiver, #161, scope:, #77
+Multi-driver check: async_receiver.RxD_endofpacket, 0, ./case1011/case2/has_multi_driver/case2/case6.v, scope:async_receiver, #171, scope:, #84
+Multi-driver check: async_receiver.RxD_state, 0:3, ./case1011/case2/has_multi_driver/case2/case6.v, scope:async_receiver, #141, #142, #143, #144, #145, #146, #147, #148, #149, #150, #151, #152, scope:, #100
+Multi-driver check: async_receiver.RxD_sync, 0:1, ./case1011/case2/has_multi_driver/case2/case6.v, scope:async_receiver, #112, scope:, #111
+Multi-driver check: async_receiver.p, 0, ./case1011/case2/has_multi_driver/case2/case6.v, scope:async_receiver.tickgen, #201, scope:async_transmitter.tickgen
+Multi-driver check: async_transmitter.tickgen.Acc, 0:16, ./case1011/case2/has_multi_driver/case2/case6.v, scope:async_transmitter.tickgen, #197, scope:, #194
+Multi-driver check: async_transmitter.TxD_shift, 0:7, ./case1011/case2/has_multi_driver/case2/case6.v, scope:async_transmitter, #47, #50, scope:, #43
+Multi-driver check: async_transmitter.TxD_state, 0:3, ./case1011/case2/has_multi_driver/case2/case6.v, scope:async_transmitter, #53, #54, #55, #56, #57, #58, #59, #60, #61, #62, #63, #64, #65, scope:, #39
+Multi-driver check: async_transmitter.q, 0, ./case1011/case2/has_multi_driver/case2/case6.v, scope:async_receiver.tickgen, #199, scope:async_transmitter.tickgen
+30 net map line size:  all size: 59
+./case1011/case2/has_multi_driver/case2/forloop_1_error.v
+begin driver conflict check:
+8 net map line size:  all size: 111
+./case1011/case2/has_multi_driver/case2/case7.v
+begin driver conflict check:
+Multi-driver check: tagArray.q, 0, ./case1011/case2/has_multi_driver/case2/case7.v, scope:tagArray.t0, #10, scope:tagArray.t1, scope:tagArray.t2, scope:tagArray.t3, scope:tagArray.t4, scope:tagArray.t5, scope:tagArray.t6, scope:tagArray.t7
+200 net map line size:  all size: 392
+./case1011/case2/has_multi_driver/case2/mult16.v
+begin driver conflict check:
+Multi-driver check: mul16.mult16inst.done, 0, ./case1011/case2/has_multi_driver/case2/mult16.v, scope:mul16.mult16inst, #34, #42, #57, scope:mul16, #119
+8 net map line size:  all size: 17
+./case1011/case2/has_multi_driver/case2/forloop_6_error.v
+begin driver conflict check:
+Multi-driver check: pipeline.firsta, 2:3, ./case1011/case2/has_multi_driver/case2/forloop_6_error.v, scope:pipeline, #26, #34
+18 net map line size:  all size: 26
+./case1011/case2/has_multi_driver/case2/forloop_7_error.v
+begin driver conflict check:
+Multi-driver check: funct.result, 0:14, ./case1011/case2/has_multi_driver/case2/forloop_7_error.v, scope:funct, #14, #16, #22
+2 net map line size:  all size: 17
+./case1011/case2/has_multi_driver/case2/case5.v
+begin driver conflict check:
+Multi-driver check: ram.ram, 0, 0:7, ./case1011/case2/has_multi_driver/case2/case5.v, scope:ram, #270, scope:, #258
+2 net map line size:  all size: 257
+./case1011/case2/has_multi_driver/case2/forloop_5_error.v
+begin driver conflict check:
+Multi-driver check: traffic.ayellow, 0:7, ./case1011/case2/has_multi_driver/case2/forloop_5_error.v, scope:traffic, #27, #34
+17 net map line size:  all size: 71
+./case1011/case2/has_multi_driver/case2/4way_4word.v
+begin driver conflict check:
+Multi-driver check: cache.ram_hot.mem, 0, 0:7, ./case1011/case2/has_multi_driver/case2/4way_4word.v, scope:cache.ram_hot, #452, scope:, #101
+Multi-driver check: cache.set0.ram_tag.mem, 0, 0:10, ./case1011/case2/has_multi_driver/case2/4way_4word.v, scope:cache.set0.ram_tag, #452, scope:, #427
+Multi-driver check: cache.set1.ram_tag.mem, 0, 0:10, ./case1011/case2/has_multi_driver/case2/4way_4word.v, scope:cache.set1.ram_tag, #452, scope:, #427
+Multi-driver check: cache.set2.ram_tag.mem, 0, 0:10, ./case1011/case2/has_multi_driver/case2/4way_4word.v, scope:cache.set2.ram_tag, #452, scope:, #427
+Multi-driver check: cache.set3.ram_tag.mem, 0, 0:10, ./case1011/case2/has_multi_driver/case2/4way_4word.v, scope:cache.set3.ram_tag, #452, scope:, #427
+Multi-driver check: cache.q, 0, ./case1011/case2/has_multi_driver/case2/4way_4word.v, scope:cache.set0, #397, scope:cache.set1, scope:cache.set2, scope:cache.set3
+169 net map line size:  all size: 82161
+./case1011/case2/has_multi_driver/case2/forloop_3_error.v
+begin driver conflict check:
+Multi-driver check: sell.collect, 0, ./case1011/case2/has_multi_driver/case2/forloop_3_error.v, scope:sell, #18, #34, #55, #61, #66
+Multi-driver check: sell.test, 0, 0:1, ./case1011/case2/has_multi_driver/case2/forloop_3_error.v, scope:sell, #21, #28
+Multi-driver check: sell.test, 1, 0:1, ./case1011/case2/has_multi_driver/case2/forloop_3_error.v, scope:sell, #21, #28
+Multi-driver check: sell.test, 2, 0:1, ./case1011/case2/has_multi_driver/case2/forloop_3_error.v, scope:sell, #21, #28
+Multi-driver check: sell.test, 3, 0:1, ./case1011/case2/has_multi_driver/case2/forloop_3_error.v, scope:sell, #21, #28
+Multi-driver check: sell.test, 4, 0:1, ./case1011/case2/has_multi_driver/case2/forloop_3_error.v, scope:sell, #21, #28
+16 net map line size:  all size: 48
+./case1011/case2/has_multi_driver/case2/8way_4word.v
+begin driver conflict check:
+Multi-driver check: cache.ram_hot.mem, 0, 0:7, ./case1011/case2/has_multi_driver/case2/8way_4word.v, scope:cache.ram_hot, #621, scope:, #107
+Multi-driver check: cache.set0.ram_tag.mem, 0, 0:15, ./case1011/case2/has_multi_driver/case2/8way_4word.v, scope:cache.set0.ram_tag, #621, scope:, #596
+Multi-driver check: cache.set1.ram_tag.mem, 0, 0:15, ./case1011/case2/has_multi_driver/case2/8way_4word.v, scope:cache.set1.ram_tag, #621, scope:, #596
+Multi-driver check: cache.set2.ram_tag.mem, 0, 0:15, ./case1011/case2/has_multi_driver/case2/8way_4word.v, scope:cache.set2.ram_tag, #621, scope:, #596
+Multi-driver check: cache.set3.ram_tag.mem, 0, 0:15, ./case1011/case2/has_multi_driver/case2/8way_4word.v, scope:cache.set3.ram_tag, #621, scope:, #596
+Multi-driver check: cache.set4.ram_tag.mem, 0, 0:15, ./case1011/case2/has_multi_driver/case2/8way_4word.v, scope:cache.set4.ram_tag, #621, scope:, #596
+Multi-driver check: cache.set5.ram_tag.mem, 0, 0:15, ./case1011/case2/has_multi_driver/case2/8way_4word.v, scope:cache.set5.ram_tag, #621, scope:, #596
+Multi-driver check: cache.set6.ram_tag.mem, 0, 0:15, ./case1011/case2/has_multi_driver/case2/8way_4word.v, scope:cache.set6.ram_tag, #621, scope:, #596
+Multi-driver check: cache.set7.ram_tag.mem, 0, 0:15, ./case1011/case2/has_multi_driver/case2/8way_4word.v, scope:cache.set7.ram_tag, #621, scope:, #596
+Multi-driver check: cache.q, 0, ./case1011/case2/has_multi_driver/case2/8way_4word.v, scope:cache.set0, #566, scope:cache.set1, scope:cache.set2, scope:cache.set3, scope:cache.set4, scope:cache.set5, scope:cache.set6, scope:cache.set7
+313 net map line size:  all size: 5018
+./case1011/case2/has_multi_driver/case2/forloop_8_error.v
+begin driver conflict check:
+Multi-driver check: alutask.c, 0:4, ./case1011/case2/has_multi_driver/case2/forloop_8_error.v, scope:alutask, #23, #26, #27, #28, #33
+2 net map line size:  all size: 9
+./case1011/case2/has_multi_driver/case2/forloop_9_error.v
+begin driver conflict check:
+Multi-driver check: add_tree.temp0, 0:7, ./case1011/case2/has_multi_driver/case2/forloop_9_error.v, scope:add_tree, #40, #45
+9 net map line size:  all size: 16
+./case1011/case2/has_multi_driver/case2/multiply_large.v
+begin driver conflict check:
+Multi-driver check: multiply_large.rc, 0, ./case1011/case2/has_multi_driver/case2/multiply_large.v, scope:multiply_large.mpy, #24, #26, scope:, #152, #134, #116, #98, #80, #62, #50
+7 net map line size:  all size: 76905

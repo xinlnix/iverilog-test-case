@@ -1,0 +1,231 @@
+
+./case1011/case1/has_multi_driver/uart_tx.v
+begin driver conflict check:
+Multi-driver check: uart_tx.chipscope_clk, 0, ./case1011/case1/has_multi_driver/uart_tx.v, scope:uart_tx, #49, #52, #54, #58
+9 net map line size:  all size: 40
+./case1011/case1/has_multi_driver/case6.v
+begin driver conflict check:
+Multi-driver check: funct.result, 0:31, ./case1011/case1/has_multi_driver/case6.v, scope:funct, #13, #15, #20
+2 net map line size:  all size: 3
+./case1011/case1/has_multi_driver/case1.v
+begin driver conflict check:
+Multi-driver check: test.m1.tmp, 0, ./case1011/case1/has_multi_driver/case1.v, scope:test.m1, #12, #13, #17
+6 net map line size:  all size: 7
+./case1011/case1/has_multi_driver/case9.v
+begin driver conflict check:
+Multi-driver check: crc.crc, 0, ./case1011/case1/has_multi_driver/case9.v, scope:crc, #24, #30, #35, #41, #47
+Multi-driver check: crc.crc_reg, 0, ./case1011/case1/has_multi_driver/case9.v, scope:crc, #23, #29, #34, #40, #48
+4 net map line size:  all size: 10
+./case1011/case1/has_multi_driver/case12.v
+begin driver conflict check:
+Multi-driver check: dut.aa, 0:1, ./case1011/case1/has_multi_driver/case12.v, scope:dut, #20, #25
+5 net map line size:  all size: 5
+./case1011/case1/has_multi_driver/case7.v
+begin driver conflict check:
+Multi-driver check: count8_tp.C1.qout, 0:7, ./case1011/case1/has_multi_driver/case7.v, scope:count8_tp.C1, #33, #34, #38
+4 net map line size:  all size: 7
+./case1011/case1/has_multi_driver/case13.v
+begin driver conflict check:
+Multi-driver check: dut.aa, 3, ./case1011/case1/has_multi_driver/case13.v, scope:dut, #13, #17
+2 net map line size:  all size: 9
+./case1011/case1/has_multi_driver/pipeline_registers.v
+begin driver conflict check:
+Multi-driver check: pipeline_registers.pipe_out, 0:9, ./case1011/case1/has_multi_driver/pipeline_registers.v, scope:pipeline_registers.genblk1, #47, #49
+2 net map line size:  all size: 2
+./case1011/case1/has_multi_driver/case2.v
+begin driver conflict check:
+Multi-driver check: non_block.b, 0, ./case1011/case1/has_multi_driver/case2.v, scope:non_block, #13, #15, #22, #24
+Multi-driver check: non_block.c, 0, ./case1011/case1/has_multi_driver/case2.v, scope:non_block, #16, #25
+4 net map line size:  all size: 6
+./case1011/case1/has_multi_driver/sign_extender.v
+begin driver conflict check:
+Multi-driver check: sign_extender.sign_extended_original, 0, ./case1011/case1/has_multi_driver/sign_extender.v, scope:sign_extender, #43, #47
+2 net map line size:  all size: 2
+./case1011/case1/has_multi_driver/button_debounce.v
+begin driver conflict check:
+Multi-driver check: button_debounce.next_state, 0:1, ./case1011/case1/has_multi_driver/button_debounce.v, scope:button_debounce, #52, #78, #79, #80, #81
+5 net map line size:  all size: 12
+./case1011/case1/has_multi_driver/case3.v
+begin driver conflict check:
+Multi-driver check: mult_for.outcome, 0:15, ./case1011/case1/has_multi_driver/case3.v, scope:mult_for, #15, #17, #22
+2 net map line size:  all size: 10
+./case1011/case1/has_multi_driver/cordic_cir.v
+begin driver conflict check:
+Multi-driver check: cordic_cir.x, 0, 0:11, ./case1011/case1/has_multi_driver/cordic_cir.v, scope:cordic_cir.gen_stages[0], #191, scope:cordic_cir.gen_stages[1], scope:cordic_cir.gen_stages[2], scope:cordic_cir.gen_stages[3], scope:cordic_cir.gen_stages[4], scope:cordic_cir.gen_stages[5], scope:cordic_cir.gen_stages[6], scope:cordic_cir.gen_stages[7], scope:cordic_cir.gen_stages[8], scope:cordic_cir.gen_stages[9], scope:cordic_cir.gen_stages[10], scope:cordic_cir.gen_stages[11], scope:cordic_cir, #135, #143, #149, #155
+142 net map line size:  all size: 265
+./case1011/case1/has_multi_driver/ALU.v
+begin driver conflict check:
+Multi-driver check: ALU.temp_BI, 0:7, ./case1011/case1/has_multi_driver/ALU.v, scope:ALU, #75, #76, #77, #78, #107
+11 net map line size:  all size: 18
+./case1011/case1/has_multi_driver/case5.v
+begin driver conflict check:
+Multi-driver check: alutask.c, 0:4, ./case1011/case1/has_multi_driver/case5.v, scope:alutask, #26, #29, #30, #31, #38
+2 net map line size:  all size: 5
+./case1011/case1/has_multi_driver/cpu.v
+begin driver conflict check:
+Multi-driver check: cpu.C, 0, ./case1011/case1/has_multi_driver/cpu.v, scope:cpu, #758, #760, #763, #765, #767, #768, scope:, #55
+Multi-driver check: cpu.D, 0, ./case1011/case1/has_multi_driver/cpu.v, scope:cpu, #821, #823, #824, #825, scope:, #58
+Multi-driver check: cpu.I, 0, ./case1011/case1/has_multi_driver/cpu.v, scope:cpu, #807, #809, #811, #812, #814, scope:, #57
+Multi-driver check: cpu.N, 0, ./case1011/case1/has_multi_driver/cpu.v, scope:cpu, #790, #792, #795, #797, #799, scope:, #60
+Multi-driver check: cpu.NMI_1, 0, ./case1011/case1/has_multi_driver/cpu.v, scope:cpu, #1224, scope:, #1221
+Multi-driver check: cpu.NMI_edge, 0, ./case1011/case1/has_multi_driver/cpu.v, scope:cpu, #1228, #1230, scope:, #77
+Multi-driver check: cpu.PC, 0, ./case1011/case1/has_multi_driver/cpu.v, scope:cpu, #355, #638
+Multi-driver check: cpu.V, 0, ./case1011/case1/has_multi_driver/cpu.v, scope:cpu, #833, #835, #836, #837, #839, scope:, #59
+Multi-driver check: cpu.Z, 0, ./case1011/case1/has_multi_driver/cpu.v, scope:cpu, #778, #780, #783, #785, scope:, #56
+80 net map line size:  all size: 436
+./case1011/case1/has_multi_driver/case15.v
+begin driver conflict check:
+can not evalate
+can not evalate
+can not evalate
+can not evalate
+can not evalate
+can not evalate
+can not evalate
+But I can Sove this problem
+(+j[31:0])<((+i[31:0])+(32'sd1))
+<
+i
++
+1
+con val  is :0
+j value is :538976288
+ is abolve is 1
+But I can Sove this problem
+(+j[31:0])<((+i[31:0])+(32'sd1))
+<
+i
++
+1
+con val  is :1
+j value is :538976288
+ is abolve is 1
+But I can Sove this problem
+(+j[31:0])<((+i[31:0])+(32'sd1))
+<
+i
++
+1
+con val  is :2
+j value is :538976288
+ is abolve is 1
+But I can Sove this problem
+(+j[31:0])<((+i[31:0])+(32'sd1))
+<
+i
++
+1
+con val  is :3
+j value is :538976288
+ is abolve is 1
+But I can Sove this problem
+(+j[31:0])<((+i[31:0])+(32'sd1))
+<
+i
++
+1
+con val  is :4
+j value is :538976288
+ is abolve is 1
+But I can Sove this problem
+(+j[31:0])<((+i[31:0])+(32'sd1))
+<
+i
++
+1
+con val  is :5
+j value is :538976288
+ is abolve is 1
+But I can Sove this problem
+(+j[31:0])<((+i[31:0])+(32'sd1))
+<
+i
++
+1
+con val  is :6
+j value is :538976288
+ is abolve is 1
+8 net map line size:  all size: 85
+./case1011/case1/has_multi_driver/case14.v
+begin driver conflict check:
+Multi-driver check: top.q, 0, ./case1011/case1/has_multi_driver/case14.v, scope:top.s1, #14, scope:top.s2
+2 net map line size:  all size: 2
+./case1011/case1/has_multi_driver/sqrt_generic.v
+begin driver conflict check:
+Multi-driver check: sqrt_generic.pipe_valid.genblk4.pipe_gen, 0, ./case1011/case1/has_multi_driver/sqrt_generic.v, scope:sqrt_generic.pipe_valid.genblk4, #136, #140, scope:sqrt_generic.pipe_valid.genblk4.pipeline[1], #149, scope:sqrt_generic.pipe_valid.genblk4.pipeline[2], scope:sqrt_generic.pipe_valid.genblk4.pipeline[3], scope:sqrt_generic.pipe_valid.genblk4.pipeline[4], scope:sqrt_generic.pipe_valid.genblk4.pipeline[5], scope:sqrt_generic.pipe_valid.genblk4.pipeline[6]
+24 net map line size:  all size: 64
+./case1011/case1/has_multi_driver/uart_rx.v
+begin driver conflict check:
+Multi-driver check: uart_rx.tick_count, 14, ./case1011/case1/has_multi_driver/uart_rx.v, scope:uart_rx, #56, #62, #66, #72, #75, #79, #90
+8 net map line size:  all size: 30
+./case1011/case1/has_multi_driver/case8.v
+begin driver conflict check:
+Multi-driver check: traffic.numa, 0:4, ./case1011/case1/has_multi_driver/case8.v, scope:traffic, #40, #41, #42, #43, #44, #52, #53, #55, #86
+17 net map line size:  all size: 57
+./case1011/case1/has_multi_driver/sqrt_pipelined.v
+begin driver conflict check:
+Multi-driver check: sqrt_pipelined.root_gen, 0:15, ./case1011/case1/has_multi_driver/sqrt_pipelined.v, scope:sqrt_pipelined.pipeline[0], #107, scope:sqrt_pipelined.pipeline[1], scope:sqrt_pipelined.pipeline[2], scope:sqrt_pipelined.pipeline[3], scope:sqrt_pipelined.pipeline[4], scope:sqrt_pipelined.pipeline[5], scope:sqrt_pipelined.pipeline[6], scope:sqrt_pipelined, #51, #57, #61
+26 net map line size:  all size: 76
+./case1011/case1/has_multi_driver/ram_infer.v
+begin driver conflict check:
+Multi-driver check: ram_infer.doutb, 0:7, ./case1011/case1/has_multi_driver/ram_infer.v, scope:ram_infer, #59, #67
+Multi-driver check: ram_infer.ram, 0, 0:7, ./case1011/case1/has_multi_driver/ram_infer.v, scope:ram_infer, #57, #66, scope:, #49
+6 net map line size:  all size: 69
+./case1011/case1/has_multi_driver/case4.v
+begin driver conflict check:
+Multi-driver check: mult_repeat.outcome, 0:15, ./case1011/case1/has_multi_driver/case4.v, scope:mult_repeat, #15, #21, #28
+4 net map line size:  all size: 7
+./case1011/case1/has_multi_driver/case10.v
+begin driver conflict check:
+Multi-driver check: account.cut, 0, ./case1011/case1/has_multi_driver/case10.v, scope:account, #29, #103, #106
+11 net map line size:  all size: 51
+./case1011/case1/has_multi_driver/case11.v
+begin driver conflict check:
+Multi-driver check: dut.q, 0, ./case1011/case1/has_multi_driver/case11.v, scope:dut, #14, #16
+3 net map line size:  all size: 3
+./case1011/case1/has_multi_driver/pipeline_registers_set.v
+begin driver conflict check:
+Multi-driver check: pipeline_registers_set.genblk4.pipe_gen, 10, ./case1011/case1/has_multi_driver/pipeline_registers_set.v, scope:pipeline_registers_set.genblk4, #61, scope:pipeline_registers_set.genblk4.pipeline[1], #76
+5 net map line size:  all size: 10
+./case1011/case1/has_multi_driver/reset.v
+begin driver conflict check:
+Multi-driver check: reset.reset_flops1.pipe_out, 0, ./case1011/case1/has_multi_driver/reset.v, scope:reset.reset_flops1.genblk4, #111, #115, scope:reset.reset_flops1, #92
+Multi-driver check: reset.reset_flops2.pipe_out, 0, ./case1011/case1/has_multi_driver/reset.v, scope:reset.reset_flops2.genblk4, #111, #115, scope:reset.reset_flops2, #92
+6 net map line size:  all size: 10
+./case1011/case1/has_multi_driver/boy.v
+begin driver conflict check:
+Multi-driver check: boy.ppu.r_state, 0:4, ./case1011/case1/has_multi_driver/boy.v, scope:boy.ppu, #3622, #3633, #3637, #3643, #3649, scope:, #3261
+Multi-driver check: boy.sound.frame_div.counter, 0:14, ./case1011/case1/has_multi_driver/boy.v, scope:boy.sound.frame_div, #879, #882, scope:, #873
+Multi-driver check: boy.sound.frame_div.o, 0, ./case1011/case1/has_multi_driver/boy.v, scope:boy.sound.frame_div, #878, scope:, #868
+Multi-driver check: boy.sound.freq_div.counter, 0:1, ./case1011/case1/has_multi_driver/boy.v, scope:boy.sound.freq_div, #879, #882, scope:, #873
+Multi-driver check: boy.sound.freq_div.o, 0, ./case1011/case1/has_multi_driver/boy.v, scope:boy.sound.freq_div, #878, scope:, #868
+Multi-driver check: boy.sound.sound_ch1.sound_length_ctr.enable, 0, ./case1011/case1/has_multi_driver/boy.v, scope:boy.sound.sound_ch1.sound_length_ctr, #4470, #4474, #4482, scope:, #4462
+Multi-driver check: boy.sound.sound_ch1.sound_length_ctr.length_left, 0:5, ./case1011/case1/has_multi_driver/boy.v, scope:boy.sound.sound_ch1.sound_length_ctr, #4471, #4475, #4480, scope:, #4464
+Multi-driver check: boy.sound.sound_ch1.divider, 0:10, ./case1011/case1/has_multi_driver/boy.v, scope:boy.sound.sound_ch1, #4660, #4665, #4668, scope:, #4650
+Multi-driver check: boy.sound.sound_ch1.duty_counter, 0:2, ./case1011/case1/has_multi_driver/boy.v, scope:boy.sound.sound_ch1, #4676, scope:, #4673
+Multi-driver check: boy.sound.sound_ch1.octo_freq_out, 0, ./case1011/case1/has_multi_driver/boy.v, scope:boy.sound.sound_ch1, #4664, scope:, #4652
+Multi-driver check: boy.sound.sound_ch2.sound_length_ctr.enable, 0, ./case1011/case1/has_multi_driver/boy.v, scope:boy.sound.sound_ch2.sound_length_ctr, #4470, #4474, #4482, scope:, #4462
+Multi-driver check: boy.sound.sound_ch2.sound_length_ctr.length_left, 0:5, ./case1011/case1/has_multi_driver/boy.v, scope:boy.sound.sound_ch2.sound_length_ctr, #4471, #4475, #4480, scope:, #4464
+Multi-driver check: boy.sound.sound_ch2.divider, 0:10, ./case1011/case1/has_multi_driver/boy.v, scope:boy.sound.sound_ch2, #4660, #4665, #4668, scope:, #4650
+Multi-driver check: boy.sound.sound_ch2.duty_counter, 0:2, ./case1011/case1/has_multi_driver/boy.v, scope:boy.sound.sound_ch2, #4676, scope:, #4673
+Multi-driver check: boy.sound.sound_ch2.octo_freq_out, 0, ./case1011/case1/has_multi_driver/boy.v, scope:boy.sound.sound_ch2, #4664, scope:, #4652
+Multi-driver check: boy.sound.sound_ch3.sound_length_ctr.enable, 0, ./case1011/case1/has_multi_driver/boy.v, scope:boy.sound.sound_ch3.sound_length_ctr, #4470, #4474, #4482, scope:, #4462
+Multi-driver check: boy.sound.sound_ch3.sound_length_ctr.length_left, 0:7, ./case1011/case1/has_multi_driver/boy.v, scope:boy.sound.sound_ch3.sound_length_ctr, #4471, #4475, #4480, scope:, #4464
+Multi-driver check: boy.sound.sound_ch3.clk_pointer_inc, 0, ./case1011/case1/has_multi_driver/boy.v, scope:boy.sound.sound_ch3, #4859, scope:, #4850
+Multi-driver check: boy.sound.sound_ch3.current_pointer, 0:4, ./case1011/case1/has_multi_driver/boy.v, scope:boy.sound.sound_ch3, #4871, #4875, scope:, #4837
+Multi-driver check: boy.sound.sound_ch3.divider, 0:10, ./case1011/case1/has_multi_driver/boy.v, scope:boy.sound.sound_ch3, #4855, #4860, #4863, scope:, #4851
+Multi-driver check: boy.sound.sound_ch4.sound_length_ctr.enable, 0, ./case1011/case1/has_multi_driver/boy.v, scope:boy.sound.sound_ch4.sound_length_ctr, #4470, #4474, #4482, scope:, #4462
+Multi-driver check: boy.sound.sound_ch4.sound_length_ctr.length_left, 0:5, ./case1011/case1/has_multi_driver/boy.v, scope:boy.sound.sound_ch4.sound_length_ctr, #4471, #4475, #4480, scope:, #4464
+Multi-driver check: boy.sound.sound_ch4.clk_div, 0, ./case1011/case1/has_multi_driver/boy.v, scope:boy.sound.sound_ch4, #4537, scope:, #4530
+Multi-driver check: boy.sound.sound_ch4.clk_divider, 0:4, ./case1011/case1/has_multi_driver/boy.v, scope:boy.sound.sound_ch4, #4538, #4541, scope:, #4533
+Multi-driver check: boy.sound.sound_ch4.clk_shifter, 0:13, ./case1011/case1/has_multi_driver/boy.v, scope:boy.sound.sound_ch4, #4547, scope:, #4544
+Multi-driver check: boy.sound.sound_ch4.lfsr, 0:14, ./case1011/case1/has_multi_driver/boy.v, scope:boy.sound.sound_ch4, #4569, #4572, scope:, #4552
+Multi-driver check: boy.sound.sequencer_state, 0:2, ./case1011/case1/has_multi_driver/boy.v, scope:boy.sound, #4224, scope:, #4221
+Multi-driver check: boy.reg_ie, 0, ./case1011/case1/has_multi_driver/boy.v, scope:boy, #243, #248
+Multi-driver check: mbc5.ram_en, 0, ./case1011/case1/has_multi_driver/boy.v, scope:mbc5, #2924, #2930, #2931, scope:, #2895
+357 net map line size:  all size: 1541
+./case1011/case1/has_multi_driver/cordic_hyp.v
+begin driver conflict check:
+Multi-driver check: cordic_hyp.pipe_func_e_exp.genblk4.pipe_gen, 17, 35, 53, 71, 89, 107, 125, 143, 161, 179, 197, 215, ./case1011/case1/has_multi_driver/cordic_hyp.v, scope:cordic_hyp.pipe_func_e_exp.genblk4, #337, #341, scope:cordic_hyp.pipe_func_e_exp.genblk4.pipeline[1], #349, #350, scope:cordic_hyp.pipe_func_e_exp.genblk4.pipeline[2], #349, #350, scope:cordic_hyp.pipe_func_e_exp.genblk4.pipeline[3], #349, #350, scope:cordic_hyp.pipe_func_e_exp.genblk4.pipeline[4], #349, #350, scope:cordic_hyp.pipe_func_e_exp.genblk4.pipeline[5], #349, #350, scope:cordic_hyp.pipe_func_e_exp.genblk4.pipeline[6], #349, #350, scope:cordic_hyp.pipe_func_e_exp.genblk4.pipeline[7], #349, #350, scope:cordic_hyp.pipe_func_e_exp.genblk4.pipeline[8], #349, #350, scope:cordic_hyp.pipe_func_e_exp.genblk4.pipeline[9], #349, #350, scope:cordic_hyp.pipe_func_e_exp.genblk4.pipeline[10], #349, #350, scope:cordic_hyp.pipe_func_e_exp.genblk4.pipeline[11], #349, #350, scope:cordic_hyp.pipe_func_e_exp.genblk4.pipeline[12]
+Multi-driver check: cordic_hyp.pipe_valid.genblk4.pipe_gen, 0:12, ./case1011/case1/has_multi_driver/cordic_hyp.v, scope:cordic_hyp.pipe_valid.genblk4, #337, #341, scope:cordic_hyp.pipe_valid.genblk4.pipeline[1], #349, #350, scope:cordic_hyp.pipe_valid.genblk4.pipeline[2], #349, #350, scope:cordic_hyp.pipe_valid.genblk4.pipeline[3], #349, #350, scope:cordic_hyp.pipe_valid.genblk4.pipeline[4], #349, #350, scope:cordic_hyp.pipe_valid.genblk4.pipeline[5], #349, #350, scope:cordic_hyp.pipe_valid.genblk4.pipeline[6], #349, #350, scope:cordic_hyp.pipe_valid.genblk4.pipeline[7], #349, #350, scope:cordic_hyp.pipe_valid.genblk4.pipeline[8], #349, #350, scope:cordic_hyp.pipe_valid.genblk4.pipeline[9], #349, #350, scope:cordic_hyp.pipe_valid.genblk4.pipeline[10], #349, #350, scope:cordic_hyp.pipe_valid.genblk4.pipeline[11], #349, #350, scope:cordic_hyp.pipe_valid.genblk4.pipeline[12], #349, #350, scope:cordic_hyp.pipe_valid.genblk4.pipeline[13]
+155 net map line size:  all size: 331
