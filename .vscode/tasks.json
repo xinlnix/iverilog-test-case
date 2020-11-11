@@ -2,17 +2,16 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: g++ build active file",
+            "label": "build",
             "command": "/usr/bin/g++",
             "args": [
                 "-g",
-                "${file}",
-                "-o",
-                "-O0",
-                "${fileDirname}/a.out"
+                "test.cc",
+              
+                "-O0"
             ],
             "options": {
-                "cwd": "/usr/bin"
+                "cwd": "${workspaceFolder}"
             },
             "problemMatcher": [
                 "$gcc"

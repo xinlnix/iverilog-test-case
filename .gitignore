@@ -2,3 +2,4 @@
 
 *.out.*
 test_result/callgrind.out/*
+timp.v

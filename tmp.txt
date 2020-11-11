@@ -1,0 +1,5 @@
+begin driver conflict check:
+Multi-driver check: top.cache1.q, 0, top1.v, scope:top.cache1.set0, #486, scope:top.cache1.set1, scope:top.cache1.set2, scope:top.cache1.set3
+Multi-driver check: top.cache2.q, 0, top1.v, scope:top.cache2.set0, #486, scope:top.cache2.set1, scope:top.cache2.set2, scope:top.cache2.set3
+Multi-driver check: top.multipy_large_i.rc, 0, top1.v, scope:top.multipy_large_i.mpy, #571, #573, scope:, #699, #681, #663, #645, #627, #609, #597
+345 net map line size:  all size: 241227

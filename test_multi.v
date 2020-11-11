@@ -21,7 +21,7 @@ module dut(input a,b,c,e,clk, output reg [7:0] q );
 // // reg r;
 // // reg clk;
 // // reg q[3:0];
-reg [7:0] mem[3:0];
+reg [7:0] mem[6:0];
 
 // reg h= 0;
 
@@ -71,10 +71,55 @@ reg [7:0] mem[3:0];
 
 // end
 
-always@(*)begin
-  // mem[0][3] = a;
-  // rr2 = 0;
-end
+// always@(*)begin
+//    mem[2][3:3] = b;
+//   // mem[2][3:3] = b;
+//   mem[3][3:1] = a;
+//   // mem[2][4:3] = b;
+//   // mem[2][3:1] = b;
+//   // mem[2][7:6] = b;
+//   // mem[5][5:1] = b;
+//   // mem[5][6] = b;
+
+//   q = b;
+//   // q[2] = b;
+//   //   q[4] = b;
+
+//   // rr2 = 0;
+// end
+// always@(*)begin
+//    mem[2][3:3] = b;
+//   // mem[2][3:3] = b;
+//   mem[3][3:1] = a;
+//   // mem[2][4:3] = b;
+//   // mem[2][3:1] = b;
+//   // mem[2][7:6] = b;
+//   // mem[5][5:1] = b;
+//   // mem[5][6] = b;
+
+//   q = b;
+//   // q[2] = b;
+//   //   q[4] = b;
+
+//   // rr2 = 0;
+// end
+
+// always@(*)begin
+//    mem[2][3:3] = b;
+//   mem[2][3:3] = b;
+//   mem[3][3:1] = a;
+//   mem[2][4:3] = b;
+//   mem[2][3:1] = b;
+//   mem[2][7:6] = b;
+//   mem[5][5:1] = b;
+//   mem[5][6] = b;
+
+//   q = b;
+//   // q[2] = b;
+//   //   q[4] = b;
+
+//   // rr2 = 0;
+// end
 
 // wire  [3:0] d;
 
@@ -91,12 +136,67 @@ end
 
     reg [0:7] aa [0:15];
     integer i,j;
-    always @(posedge clk) begin
-        for (i=2; i<4; i++)         //15
-            for (j=0; j <i+3; j++)            //7
-                mem[i][j] = a;
-        // dd = cc & bb;
-    end      
+
+    //    integer i;
+    
+    initial begin
+        for(i = 0; i <(2**3); i=i+1) begin
+	        mem[0][i] = 0;
+        end
+    end
+
+        always@(a) begin
+        for(i = 0; i <(2**3); i=i+1) begin
+	        mem[0][i] = 0;
+        end
+    end
+    // always@(c)begin
+    //   aa[2][0:3] = c;
+    //   aa[2][5:7] = c;
+    // end
+    // always@(c)begin
+    //   aa[2][3:6] = c;
+    // end
+    // always @(posedge clk) begin
+    //     for (i=2; i<4; i++)         //15
+    //         for (j=0; j <i+3; j= j+1)            //7
+    //             mem[i][j] = a;
+    //     // dd = cc & bb;
+    // // end      
+    // always @(posedge clk) begin
+    //     for (i=2; i<4; i++)         //15
+    //         for (j=0; j <3; j= j+1)            //7
+    //             mem[i][j] = a;
+    //     // dd = cc & bb;
+    // end      
+    //     always @(posedge clk) begin
+    //     for (i=2; i<4; i++)         //15
+    //         for (j=0; j <3; j= j+1)            //7
+    //             mem[i][j] = a;
+    //     // dd = cc & bb;
+    // end      
+    // always @(posedge clk) begin
+    //     for (i=2; i<4; i++)         //15
+    //         for (j=0; j <i+3; j= j+1)            //7
+    //             mem[i][j] = a;
+    //     // dd = cc & bb;
+    // end      
+    // always @(posedge clk) begin
+    //     for (i=2; i<4; i++)         //15
+    //             mem[0][i] = a;
+    // end      
+
+    // always @(posedge clk) begin
+    //     for (i=2; i<4; i++)         //15
+    //             mem[0][i] = a;
+    // end      
+
+
+    // always @(posedge clk) begin
+    //             mem[0][7] = a;
+    // end      
+
+
 
     // always @(posedge clk) begin
     //     for (i=5; i>3; i=i-1)         //15

@@ -27,7 +27,7 @@ module ram_infer
   #(
     parameter
     WIDTH = 8,
-    DEPTH = 64,
+    DEPTH = 6400,
     LG_DEPTH = 6,
     INIT_VAL = 8'd0
     )
