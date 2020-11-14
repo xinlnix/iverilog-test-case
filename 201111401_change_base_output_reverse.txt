@@ -1,0 +1,443 @@
+
+all_case/case1/3.v
+begin driver conflict check:
+ net map size: 382 all size: 1736
+Multi-driver check: cb_huff.data_ready, 0; all_case/case1/3.v, scope:cb_huff, #263, #280; all_case/case1/3.v, scope:cb_huff, #2257
+all_case/case1/5.v
+begin driver conflict check:
+ net map size: 382 all size: 1738
+Multi-driver check: cr_huff.JPEG_bitstream, 3:2; all_case/case1/5.v, scope:cr_huff, #2218, #2220, #2222; all_case/case1/5.v, scope:cr_huff, #2228, #2230, #2232; all_case/case1/5.v, scope:cr_huff, #2258, #2260, #2262
+all_case/case1/6.v
+begin driver conflict check:
+ net map size: 5 all size: 49
+Multi-driver check: bshift.c_to_alu, 0; all_case/case1/6.v, scope:bshift, #34, #35, #42, #49, #56, #64, #72, #73, #80, #81, #87, #94, #101; all_case/case1/6.v, scope:bshift, #107
+all_case/case1/7.v
+begin driver conflict check:
+ net map size: 305 all size: 783
+Multi-driver check: y_dct.Z37_final, 10:0; all_case/case1/7.v, scope:y_dct, #300, #335; all_case/case1/7.v, scope:y_dct, #846, #849
+all_case/case1/4.v
+begin driver conflict check:
+ net map size: 305 all size: 782
+Multi-driver check: cr_dct.Z38_final, 10:0; all_case/case1/4.v, scope:cr_dct, #301, #337; all_case/case1/4.v, scope:cr_dct, #848
+all_case/case1/8.v
+begin driver conflict check:
+ net map size: 382 all size: 1737
+Multi-driver check: y_huff.end_of_block_output, 0; all_case/case1/8.v, scope:y_huff, #265, #282; all_case/case1/8.v, scope:y_huff, #2256, #2258
+all_case/case1/9.v
+begin driver conflict check:
+ net map size: 260 all size: 586
+Multi-driver check: y_quantizer.Q31, 10:0; all_case/case1/9.v, scope:y_quantizer, #534, #559; all_case/case1/9.v, scope:y_quantizer, #631, #634
+all_case/case1/1.v
+begin driver conflict check:
+ net map size: 6 all size: 89
+Multi-driver check: alu.result, 31:0; all_case/case1/1.v, scope:alu, #49, #55, #62, #63, #72, #73, #81, #82, #90, #91, #100, #101, #110, #111, #119, #126, #134, #135, #143, #144, #152, #159, #166, #173; all_case/case1/1.v, scope:alu, #185
+all_case/case1/10.v
+begin driver conflict check:
+ net map size: 92 all size: 569
+Multi-driver check: arm9_compatiable_code.ram_wdata, 31:0; all_case/case1/10.v, scope:arm9_compatiable_code, #1317, #1319, #1321, #1323, #1325, #1327, #1329, #1331, #1333, #1335, #1337, #1339, #1341, #1343, #1345, #1347, #1349, #1352, #1354, #1356, #1358; all_case/case1/10.v, scope:arm9_compatiable_code, #1872, #1874, #1876, #1878, #1880, #1882, #1884, #1886, #1888, #1890, #1892, #1894, #1896, #1898, #1900, #1902, #1904, #1907, #1909, #1911, #1913
+all_case/case1/2.v
+begin driver conflict check:
+ net map size: 305 all size: 782
+Multi-driver check: cb_dct.Z85_final, 10:0; all_case/case1/2.v, scope:cb_dct, #311, #374; all_case/case1/2.v, scope:cb_dct, #848
+all_case/uart_tx.v
+begin driver conflict check:
+ net map size: 8 all size: 40
+Multi-driver check: uart_tx.chipscope_clk, 0; all_case/uart_tx.v, scope:uart_tx, #49, #52, #54; all_case/uart_tx.v, scope:uart_tx, #58
+all_case/case4/9_for_loop.v
+begin driver conflict check:
+ net map size: 2 all size: 10
+Multi-driver check: crc.crc, 7:0; all_case/case4/9_for_loop.v, scope:crc, #20, #25, #30, #36; all_case/case4/9_for_loop.v, scope:crc, #44
+all_case/case4/6_for_loop.v
+begin driver conflict check:
+ net map size: 2 all size: 764
+Multi-driver check: mult_tp.b, 7:0; all_case/case4/6_for_loop.v, scope:mult_tp, #19; all_case/case4/6_for_loop.v, scope:initial, #11, #25
+all_case/case4/1_for_loop.v
+begin driver conflict check:
+ net map size: 3 all size: 48
+Multi-driver check: adder_tp.a, 3:0; all_case/case4/1_for_loop.v, scope:adder_tp, #23, #25; all_case/case4/1_for_loop.v, scope:initial, #37
+Multi-driver check: adder_tp.b, 3:0; all_case/case4/1_for_loop.v, scope:adder_tp, #23; all_case/case4/1_for_loop.v, scope:initial, #31
+all_case/case4/8_for_loop.v
+begin driver conflict check:
+ net map size: 5 all size: 61
+Multi-driver check: cycle.c, 3:0; all_case/case4/8_for_loop.v, scope:cycle, #16; all_case/case4/8_for_loop.v, scope:cycle, #33
+Multi-driver check: cycle.d0, 0; all_case/case4/8_for_loop.v, scope:cycle, #11, #16, #22; all_case/case4/8_for_loop.v, scope:cycle, #28, #33
+Multi-driver check: cycle.d1, 0; all_case/case4/8_for_loop.v, scope:cycle, #11, #15, #21; all_case/case4/8_for_loop.v, scope:cycle, #28, #32
+Multi-driver check: cycle.d2, 0; all_case/case4/8_for_loop.v, scope:cycle, #11, #15, #21; all_case/case4/8_for_loop.v, scope:cycle, #28, #32
+Multi-driver check: cycle.temp, 0; all_case/case4/8_for_loop.v, scope:cycle, #14, #20; all_case/case4/8_for_loop.v, scope:cycle, #31
+all_case/case4/7_for_loop.v
+begin driver conflict check:
+ net map size: 5 all size: 37
+Multi-driver check: mac_tp.opa, 7:0; all_case/case4/7_for_loop.v, scope:mac_tp, #45; all_case/case4/7_for_loop.v, scope:initial, #59, #58, #57, #56, #55, #54, #53, #52, #51, #50, #49
+all_case/case4/0_for_loop.v
+begin driver conflict check:
+ net map size: 8 all size: 107
+Multi-driver check: decoder2.c_buf, 6; all_case/case4/0_for_loop.v, scope:decoder2, #14; all_case/case4/0_for_loop.v, scope:decoder2, #37
+all_case/case4/5_for_loop.v
+begin driver conflict check:
+ net map size: 1 all size: 202
+Multi-driver check: random_tp.data, 31:0; all_case/case4/5_for_loop.v, scope:random_tp, #11; all_case/case4/5_for_loop.v, scope:initial, #16
+all_case/case4/2_for_loop.v
+begin driver conflict check:
+ net map size: 1 all size: 16
+Multi-driver check: alutask.c, 4:0; all_case/case4/2_for_loop.v, scope:alutask, #21, #24, #25, #26; all_case/case4/2_for_loop.v, scope:alutask, #33; all_case/case4/2_for_loop.v, scope:alutask, #40
+all_case/case4/3_for_loop.v
+begin driver conflict check:
+ net map size: 1 all size: 6
+Multi-driver check: funct.result, 31:0; all_case/case4/3_for_loop.v, scope:funct, #10, #12; all_case/case4/3_for_loop.v, scope:funct, #18, #21
+all_case/case6.v
+begin driver conflict check:
+ net map size: 1 all size: 3
+Multi-driver check: funct.result, 31:0; all_case/case6.v, scope:funct, #13, #15; all_case/case6.v, scope:funct, #20
+all_case/case1.v
+begin driver conflict check:
+ net map size: 5 all size: 7
+Multi-driver check: test.m1.tmp, 0; all_case/case1.v, scope:test.m1, #12, #13; all_case/case1.v, scope:test.m1, #17
+all_case/case9.v
+begin driver conflict check:
+ net map size: 2 all size: 10
+Multi-driver check: crc.crc, 0; all_case/case9.v, scope:crc, #24, #30, #35, #41; all_case/case9.v, scope:crc, #47
+Multi-driver check: crc.crc_reg, 0; all_case/case9.v, scope:crc, #23, #29, #34, #40; all_case/case9.v, scope:crc, #48
+all_case/case12.v
+begin driver conflict check:
+ net map size: 4 all size: 5
+Multi-driver check: dut.aa, 1:0; all_case/case12.v, scope:dut, #20; all_case/case12.v, scope:dut, #25
+all_case/case3/01_timer.v
+begin driver conflict check:
+ net map size: 8 all size: 92
+Multi-driver check: timer.u1.count, 20:0; all_case/case3/01_timer.v, scope:timer.u1, #60, #63; all_case/case3/01_timer.v, scope:initial, #53
+Multi-driver check: timer.u1.temp2, 0; all_case/case3/01_timer.v, scope:timer.u1, #58; all_case/case3/01_timer.v, scope:initial, #54
+Multi-driver check: timer.u2.this_time, 23:0; all_case/case3/01_timer.v, scope:timer.u2, #74; all_case/case3/01_timer.v, scope:timer.u2, #79, #97, #100, #101, #104, #105, #108, #109, #112, #113, #116, #117, #120
+Multi-driver check: timer.u3.count, 15:0; all_case/case3/01_timer.v, scope:timer.u3, #140, #143; all_case/case3/01_timer.v, scope:initial, #132
+Multi-driver check: timer.u3.temp, 5:0; all_case/case3/01_timer.v, scope:timer.u3, #138; all_case/case3/01_timer.v, scope:initial, #133
+all_case/case3/09_select.v
+begin driver conflict check:
+ net map size: 12 all size: 83
+Multi-driver check: test_ALU_8.a.ZF, 0; all_case/case3/09_select.v, scope:test_ALU_8.a, #48; all_case/case3/09_select.v, scope:test_ALU_8.a, #57
+all_case/case3/06_topmodule.v
+begin driver conflict check:
+ net map size: 86 all size: 496
+Multi-driver check: topmodule.DMEM.M0.mem, 0, 31:0; all_case/case3/06_topmodule.v, scope:topmodule.DMEM.M0, #455; all_case/case3/06_topmodule.v, scope:initial, #469
+Multi-driver check: topmodule.DMEM.M1.mem, 0, 31:0; all_case/case3/06_topmodule.v, scope:topmodule.DMEM.M1, #455; all_case/case3/06_topmodule.v, scope:initial, #469
+Multi-driver check: topmodule.DMEM.M2.mem, 0, 31:0; all_case/case3/06_topmodule.v, scope:topmodule.DMEM.M2, #455; all_case/case3/06_topmodule.v, scope:initial, #469
+Multi-driver check: topmodule.DMEM.M3.mem, 0, 31:0; all_case/case3/06_topmodule.v, scope:topmodule.DMEM.M3, #455; all_case/case3/06_topmodule.v, scope:initial, #469
+Multi-driver check: topmodule.DMEM.M4.mem, 0, 31:0; all_case/case3/06_topmodule.v, scope:topmodule.DMEM.M4, #455; all_case/case3/06_topmodule.v, scope:initial, #469
+Multi-driver check: topmodule.DMEM.M5.mem, 0, 31:0; all_case/case3/06_topmodule.v, scope:topmodule.DMEM.M5, #455; all_case/case3/06_topmodule.v, scope:initial, #469
+Multi-driver check: topmodule.DMEM.M6.mem, 0, 31:0; all_case/case3/06_topmodule.v, scope:topmodule.DMEM.M6, #455; all_case/case3/06_topmodule.v, scope:initial, #469
+Multi-driver check: topmodule.DMEM.M7.mem, 0, 31:0; all_case/case3/06_topmodule.v, scope:topmodule.DMEM.M7, #455; all_case/case3/06_topmodule.v, scope:initial, #469
+Multi-driver check: topmodule.IDEC.vx_select, 2:0; all_case/case3/06_topmodule.v, scope:topmodule.IDEC, #74; all_case/case3/06_topmodule.v, scope:topmodule.IDEC, #81, #96
+Multi-driver check: topmodule.VREGS.vx, 31:0; all_case/case3/06_topmodule.v, scope:topmodule.VREGS, #231; all_case/case3/06_topmodule.v, scope:initial, #242, #240
+all_case/case3/08_bomb.v
+begin driver conflict check:
+ net map size: 23 all size: 87
+Multi-driver check: bomb.out1, 3:0; all_case/case3/08_bomb.v, scope:bomb, #75; all_case/case3/08_bomb.v, scope:bomb, #80, #84, #88, #92, #96, #100
+all_case/case3/03_keybd.v
+begin driver conflict check:
+ net map size: 12 all size: 36
+Multi-driver check: ps2_keyboard.ready, 0; all_case/case3/03_keybd.v, scope:ps2_keyboard, #62, #76; all_case/case3/03_keybd.v, scope:ps2_keyboard, #118
+all_case/case3/05_inner_product.v
+begin driver conflict check:
+ net map size: 2 all size: 3
+Multi-driver check: inner_product_tb.my_inner_product_test.count, 9:0; all_case/case3/05_inner_product.v, scope:inner_product_tb.my_inner_product_test, #89; all_case/case3/05_inner_product.v, scope:initial, #86
+all_case/case7.v
+begin driver conflict check:
+ net map size: 3 all size: 7
+Multi-driver check: count8_tp.C1.qout, 7:0; all_case/case7.v, scope:count8_tp.C1, #33, #34; all_case/case7.v, scope:count8_tp.C1, #38
+all_case/case13.v
+begin driver conflict check:
+ net map size: 1 all size: 9
+Multi-driver check: dut.aa, 4; all_case/case13.v, scope:dut, #13; all_case/case13.v, scope:dut, #17
+all_case/pipeline_registers.v
+begin driver conflict check:
+ net map size: 1 all size: 2
+Multi-driver check: pipeline_registers.pipe_out, 9:0; all_case/pipeline_registers.v, scope:pipeline_registers.genblk1, #47; all_case/pipeline_registers.v, scope:pipeline_registers.genblk1, #49
+all_case/case2.v
+begin driver conflict check:
+ net map size: 2 all size: 6
+Multi-driver check: non_block.b, 0; all_case/case2.v, scope:non_block, #13, #15; all_case/case2.v, scope:non_block, #22, #24
+Multi-driver check: non_block.c, 0; all_case/case2.v, scope:non_block, #16; all_case/case2.v, scope:non_block, #25
+all_case/sign_extender.v
+begin driver conflict check:
+ net map size: 1 all size: 2
+Multi-driver check: sign_extender.sign_extended_original, 0; all_case/sign_extender.v, scope:sign_extender, #43; all_case/sign_extender.v, scope:sign_extender, #47
+all_case/button_debounce.v
+begin driver conflict check:
+ net map size: 4 all size: 12
+Multi-driver check: button_debounce.next_state, 1:0; all_case/button_debounce.v, scope:button_debounce, #52; all_case/button_debounce.v, scope:button_debounce, #78, #79, #80, #81
+all_case/case3.v
+begin driver conflict check:
+ net map size: 1 all size: 10
+Multi-driver check: mult_for.outcome, 15:0; all_case/case3.v, scope:mult_for, #15, #17; all_case/case3.v, scope:mult_for, #22
+all_case/cordic_cir.v
+begin driver conflict check:
+ net map size: 17 all size: 265
+Multi-driver check: cordic_cir.x, 0, 11:0; all_case/cordic_cir.v, scope:cordic_cir.gen_stages[0], #191; all_case/cordic_cir.v, scope:cordic_cir.gen_stages[1], #191; all_case/cordic_cir.v, scope:cordic_cir.gen_stages[2], #191; all_case/cordic_cir.v, scope:cordic_cir.gen_stages[3], #191; all_case/cordic_cir.v, scope:cordic_cir.gen_stages[4], #191; all_case/cordic_cir.v, scope:cordic_cir.gen_stages[5], #191; all_case/cordic_cir.v, scope:cordic_cir.gen_stages[6], #191; all_case/cordic_cir.v, scope:cordic_cir.gen_stages[7], #191; all_case/cordic_cir.v, scope:cordic_cir.gen_stages[8], #191; all_case/cordic_cir.v, scope:cordic_cir.gen_stages[9], #191; all_case/cordic_cir.v, scope:cordic_cir.gen_stages[10], #191; all_case/cordic_cir.v, scope:cordic_cir.gen_stages[11], #191; all_case/cordic_cir.v, scope:cordic_cir, #135, #143, #149, #155
+all_case/ALU.v
+begin driver conflict check:
+ net map size: 10 all size: 18
+Multi-driver check: ALU.temp_BI, 7:0; all_case/ALU.v, scope:ALU, #75, #76, #77, #78; all_case/ALU.v, scope:ALU, #107
+all_case/case5.v
+begin driver conflict check:
+ net map size: 1 all size: 5
+Multi-driver check: alutask.c, 4:0; all_case/case5.v, scope:alutask, #26, #29, #30, #31; all_case/case5.v, scope:alutask, #38
+all_case/cpu.v
+begin driver conflict check:
+ net map size: 71 all size: 436
+Multi-driver check: cpu.C, 0; all_case/cpu.v, scope:cpu, #758, #760, #763, #765, #767, #768; all_case/cpu.v, scope:initial, #55
+Multi-driver check: cpu.D, 0; all_case/cpu.v, scope:cpu, #821, #823, #824, #825; all_case/cpu.v, scope:initial, #58
+Multi-driver check: cpu.I, 0; all_case/cpu.v, scope:cpu, #807, #809, #811, #812, #814; all_case/cpu.v, scope:initial, #57
+Multi-driver check: cpu.N, 0; all_case/cpu.v, scope:cpu, #790, #792, #795, #797, #799; all_case/cpu.v, scope:initial, #60
+Multi-driver check: cpu.NMI_1, 0; all_case/cpu.v, scope:cpu, #1224; all_case/cpu.v, scope:initial, #1221
+Multi-driver check: cpu.NMI_edge, 0; all_case/cpu.v, scope:cpu, #1228, #1230; all_case/cpu.v, scope:initial, #77
+Multi-driver check: cpu.PC, 0; all_case/cpu.v, scope:cpu, #355; all_case/cpu.v, scope:cpu, #638
+Multi-driver check: cpu.V, 0; all_case/cpu.v, scope:cpu, #833, #835, #836, #837, #839; all_case/cpu.v, scope:initial, #59
+Multi-driver check: cpu.Z, 0; all_case/cpu.v, scope:cpu, #778, #780, #783, #785; all_case/cpu.v, scope:initial, #56
+all_case/case15.v
+begin driver conflict check:
+ net map size: 2 all size: 127
+Multi-driver check: dut.aa, 0, 15:13; all_case/case15.v, scope:dut, #15; all_case/case15.v, scope:dut, #23
+Multi-driver check: dut.aa, 1, 14:12; all_case/case15.v, scope:dut, #15; all_case/case15.v, scope:dut, #23
+Multi-driver check: dut.aa, 2, 13:11; all_case/case15.v, scope:dut, #15; all_case/case15.v, scope:dut, #23
+Multi-driver check: dut.aa, 3, 12:10; all_case/case15.v, scope:dut, #15; all_case/case15.v, scope:dut, #23
+Multi-driver check: dut.aa, 4, 11:9; all_case/case15.v, scope:dut, #15; all_case/case15.v, scope:dut, #23
+Multi-driver check: dut.aa, 5, 10:8; all_case/case15.v, scope:dut, #15; all_case/case15.v, scope:dut, #23
+Multi-driver check: dut.aa, 6, 9:7; all_case/case15.v, scope:dut, #15; all_case/case15.v, scope:dut, #23
+all_case/case5/1_memory.v
+begin driver conflict check:
+ net map size: 30 all size: 876
+Multi-driver check: MiaoBiao_Top.myFreq.clk100Hz, 0; all_case/case5/1_memory.v, scope:MiaoBiao_Top.myFreq, #67, #68; all_case/case5/1_memory.v, scope:MiaoBiao_Top.myFreq, #73, #74
+Multi-driver check: MiaoBiao_Top.myFreq.cnt100Hz, 19:0; all_case/case5/1_memory.v, scope:MiaoBiao_Top.myFreq, #66, #67; all_case/case5/1_memory.v, scope:MiaoBiao_Top.myFreq, #73
+all_case/case5/5_memory.v
+begin driver conflict check:
+ net map size: 5 all size: 10
+Multi-driver check: ServoUnit.angle_counter, 10:0; all_case/case5/5_memory.v, scope:ServoUnit, #39; all_case/case5/5_memory.v, scope:initial, #33
+Multi-driver check: ServoUnit.divcounter, 6:0; all_case/case5/5_memory.v, scope:ServoUnit, #22, #24; all_case/case5/5_memory.v, scope:initial, #11
+Multi-driver check: ServoUnit.tic, 0; all_case/case5/5_memory.v, scope:ServoUnit, #17; all_case/case5/5_memory.v, scope:initial, #12
+Multi-driver check: ServoUnit.tmp, 3:2; all_case/case5/5_memory.v, scope:ServoUnit, #27; all_case/case5/5_memory.v, scope:ServoUnit, #30
+all_case/case5/2_memory.v
+begin driver conflict check:
+ net map size: 51 all size: 119
+Multi-driver check: dit.butterfly_0.m, 0, 10:0; all_case/case5/2_memory.v, scope:dit.butterfly_0, #683; all_case/case5/2_memory.v, scope:dit.butterfly_0, #745
+Multi-driver check: dit.bufferin_addr, 3:0; all_case/case5/2_memory.v, scope:dit, #108, #125; all_case/case5/2_memory.v, scope:initial, #97
+Multi-driver check: dit.bufferin_full0_A, 0; all_case/case5/2_memory.v, scope:dit, #109, #132; all_case/case5/2_memory.v, scope:initial, #98
+Multi-driver check: dit.bufferin_full0_B, 0; all_case/case5/2_memory.v, scope:dit, #317, #382; all_case/case5/2_memory.v, scope:initial, #303
+Multi-driver check: dit.bufferin_full1_A, 0; all_case/case5/2_memory.v, scope:dit, #110, #130; all_case/case5/2_memory.v, scope:initial, #99
+Multi-driver check: dit.bufferin_full1_B, 0; all_case/case5/2_memory.v, scope:dit, #318, #380; all_case/case5/2_memory.v, scope:initial, #304
+Multi-driver check: dit.bufferin_read_switch, 0; all_case/case5/2_memory.v, scope:dit, #316, #383; all_case/case5/2_memory.v, scope:initial, #302
+Multi-driver check: dit.bufferin_write_switch, 0; all_case/case5/2_memory.v, scope:dit, #111, #128; all_case/case5/2_memory.v, scope:initial, #100
+Multi-driver check: dit.bufferout_addr, 3:0; all_case/case5/2_memory.v, scope:dit, #158, #168; all_case/case5/2_memory.v, scope:initial, #149
+Multi-driver check: dit.bufferout_full_A, 0; all_case/case5/2_memory.v, scope:dit, #496, #520; all_case/case5/2_memory.v, scope:initial, #488
+Multi-driver check: dit.bufferout_full_B, 0; all_case/case5/2_memory.v, scope:dit, #159, #170; all_case/case5/2_memory.v, scope:initial, #150
+Multi-driver check: dit.fsm_state, 1:0; all_case/case5/2_memory.v, scope:dit, #312, #342, #357, #367, #426, #430, #439; all_case/case5/2_memory.v, scope:initial, #298
+Multi-driver check: dit.out1_addr_z_old, 0; all_case/case5/2_memory.v, scope:dit, #516; all_case/case5/2_memory.v, scope:dit, #549
+Multi-driver check: dit.out_nd, 0; all_case/case5/2_memory.v, scope:dit, #160, #167, #173; all_case/case5/2_memory.v, scope:initial, #151
+Multi-driver check: dit.overflow, 0; all_case/case5/2_memory.v, scope:dit, #112, #120; all_case/case5/2_memory.v, scope:initial, #101
+Multi-driver check: dit.readbuf_switch, 0; all_case/case5/2_memory.v, scope:dit, #315, #393; all_case/case5/2_memory.v, scope:initial, #301
+Multi-driver check: dit.tf_addr_nd, 0; all_case/case5/2_memory.v, scope:dit, #313, #339, #354, #368, #415; all_case/case5/2_memory.v, scope:initial, #299
+Multi-driver check: dit.x_nd, 0; all_case/case5/2_memory.v, scope:dit, #314, #340, #358, #369, #420; all_case/case5/2_memory.v, scope:initial, #300
+Multi-driver check: dit.z_nd_last, 0; all_case/case5/2_memory.v, scope:dit, #497, #517; all_case/case5/2_memory.v, scope:initial, #489
+all_case/case5/4_memory.v
+begin driver conflict check:
+ net map size: 6 all size: 23
+Multi-driver check: MeanFilter.pipe[0].sum, 1, 16:0; all_case/case5/4_memory.v, scope:MeanFilter.pipe[0].genblk5[1].genblk8, #165; all_case/case5/4_memory.v, scope:MeanFilter.pipe[0].genblk5[1].genblk8, #169
+Multi-driver check: MeanFilter.pipe[0].sum, 2, 16:0; all_case/case5/4_memory.v, scope:MeanFilter.pipe[0].genblk5[2].genblk8, #165; all_case/case5/4_memory.v, scope:MeanFilter.pipe[0].genblk5[2].genblk8, #169
+Multi-driver check: MeanFilter.pipe[0].sum, 3, 16:0; all_case/case5/4_memory.v, scope:MeanFilter.pipe[0].genblk5[3].genblk8, #165; all_case/case5/4_memory.v, scope:MeanFilter.pipe[0].genblk5[3].genblk8, #169
+all_case/case14.v
+begin driver conflict check:
+ net map size: 1 all size: 2
+Multi-driver check: top.q, 0; all_case/case14.v, scope:top.s1, #14; all_case/case14.v, scope:top.s2, #14
+all_case/sqrt_generic.v
+begin driver conflict check:
+ net map size: 4 all size: 64
+Multi-driver check: sqrt_generic.pipe_valid.genblk4.pipe_gen, 0; all_case/sqrt_generic.v, scope:sqrt_generic.pipe_valid.genblk4, #136, #140; all_case/sqrt_generic.v, scope:sqrt_generic.pipe_valid.genblk4.pipeline[1], #149; all_case/sqrt_generic.v, scope:sqrt_generic.pipe_valid.genblk4.pipeline[2], #149; all_case/sqrt_generic.v, scope:sqrt_generic.pipe_valid.genblk4.pipeline[3], #149; all_case/sqrt_generic.v, scope:sqrt_generic.pipe_valid.genblk4.pipeline[4], #149; all_case/sqrt_generic.v, scope:sqrt_generic.pipe_valid.genblk4.pipeline[5], #149; all_case/sqrt_generic.v, scope:sqrt_generic.pipe_valid.genblk4.pipeline[6], #149
+all_case/uart_rx.v
+begin driver conflict check:
+ net map size: 7 all size: 30
+Multi-driver check: uart_rx.tick_count, 14; all_case/uart_rx.v, scope:uart_rx, #56, #62, #66, #72, #75, #79; all_case/uart_rx.v, scope:uart_rx, #90
+all_case/case8.v
+begin driver conflict check:
+ net map size: 16 all size: 57
+Multi-driver check: traffic.numa, 4:0; all_case/case8.v, scope:traffic, #40, #41, #42, #43, #44, #52, #53, #55; all_case/case8.v, scope:traffic, #86
+all_case/sqrt_pipelined.v
+begin driver conflict check:
+ net map size: 5 all size: 76
+Multi-driver check: sqrt_pipelined.root_gen, 15:0; all_case/sqrt_pipelined.v, scope:sqrt_pipelined.pipeline[0], #107; all_case/sqrt_pipelined.v, scope:sqrt_pipelined.pipeline[1], #107; all_case/sqrt_pipelined.v, scope:sqrt_pipelined.pipeline[2], #107; all_case/sqrt_pipelined.v, scope:sqrt_pipelined.pipeline[3], #107; all_case/sqrt_pipelined.v, scope:sqrt_pipelined.pipeline[4], #107; all_case/sqrt_pipelined.v, scope:sqrt_pipelined.pipeline[5], #107; all_case/sqrt_pipelined.v, scope:sqrt_pipelined.pipeline[6], #107; all_case/sqrt_pipelined.v, scope:sqrt_pipelined, #51, #57, #61
+all_case/ram_infer.v
+begin driver conflict check:
+ net map size: 3 all size: 69
+Multi-driver check: ram_infer.doutb, 7:0; all_case/ram_infer.v, scope:ram_infer, #59; all_case/ram_infer.v, scope:ram_infer, #67
+Multi-driver check: ram_infer.ram, 0, 7:0; all_case/ram_infer.v, scope:ram_infer, #57; all_case/ram_infer.v, scope:ram_infer, #66; all_case/ram_infer.v, scope:initial, #49
+all_case/case4.v
+begin driver conflict check:
+ net map size: 3 all size: 7
+Multi-driver check: mult_repeat.outcome, 15:0; all_case/case4.v, scope:mult_repeat, #15, #21; all_case/case4.v, scope:mult_repeat, #28
+all_case/case10.v
+begin driver conflict check:
+ net map size: 10 all size: 51
+Multi-driver check: account.cut, 0; all_case/case10.v, scope:account, #29; all_case/case10.v, scope:account, #103, #106
+all_case/case11.v
+begin driver conflict check:
+ net map size: 2 all size: 3
+Multi-driver check: dut.q, 0; all_case/case11.v, scope:dut, #14; all_case/case11.v, scope:dut, #16
+all_case/pipeline_registers_set.v
+begin driver conflict check:
+ net map size: 2 all size: 10
+Multi-driver check: pipeline_registers_set.genblk4.pipe_gen, 10; all_case/pipeline_registers_set.v, scope:pipeline_registers_set.genblk4, #61; all_case/pipeline_registers_set.v, scope:pipeline_registers_set.genblk4.pipeline[1], #76
+all_case/case2/forloop_4_error.v
+begin driver conflict check:
+ net map size: 9 all size: 37
+Multi-driver check: paobiao.MSH_T, 0, 3:1; all_case/case2/forloop_4_error.v, scope:paobiao, #21; all_case/case2/forloop_4_error.v, scope:paobiao, #44
+Multi-driver check: paobiao.MSH_T, 1, 3:2; all_case/case2/forloop_4_error.v, scope:paobiao, #21; all_case/case2/forloop_4_error.v, scope:paobiao, #44
+all_case/case2/forloop_2_error.v
+begin driver conflict check:
+ net map size: 32 all size: 94
+Multi-driver check: clock.hour1, 3:0; all_case/case2/forloop_2_error.v, scope:clock, #108, #112, #114; all_case/case2/forloop_2_error.v, scope:clock, #118
+all_case/case2/forloop_10_error.v
+begin driver conflict check:
+ net map size: 14 all size: 125
+Multi-driver check: mult4x4.out_t, 0, 3:0; all_case/case2/forloop_10_error.v, scope:mult4x4, #29; all_case/case2/forloop_10_error.v, scope:mult4x4, #35
+Multi-driver check: mult4x4.out_t, 1, 3:0; all_case/case2/forloop_10_error.v, scope:mult4x4, #29; all_case/case2/forloop_10_error.v, scope:mult4x4, #35
+Multi-driver check: mult4x4.out_t, 2, 3:0; all_case/case2/forloop_10_error.v, scope:mult4x4, #29; all_case/case2/forloop_10_error.v, scope:mult4x4, #35
+Multi-driver check: mult4x4.out_t, 3, 3:0; all_case/case2/forloop_10_error.v, scope:mult4x4, #29; all_case/case2/forloop_10_error.v, scope:mult4x4, #35
+all_case/case2/free_config_cache.v
+begin driver conflict check:
+ net map size: 301 all size: 5071
+Multi-driver check: cache.config_ctrl.set0.ram_tag.mem, 0, 15:0; all_case/case2/free_config_cache.v, scope:cache.config_ctrl.set0.ram_tag, #945; all_case/case2/free_config_cache.v, scope:initial, #920
+Multi-driver check: cache.config_ctrl.set1.ram_tag.mem, 0, 15:0; all_case/case2/free_config_cache.v, scope:cache.config_ctrl.set1.ram_tag, #945; all_case/case2/free_config_cache.v, scope:initial, #920
+Multi-driver check: cache.config_ctrl.set2.ram_tag.mem, 0, 15:0; all_case/case2/free_config_cache.v, scope:cache.config_ctrl.set2.ram_tag, #945; all_case/case2/free_config_cache.v, scope:initial, #920
+Multi-driver check: cache.config_ctrl.set3.ram_tag.mem, 0, 15:0; all_case/case2/free_config_cache.v, scope:cache.config_ctrl.set3.ram_tag, #945; all_case/case2/free_config_cache.v, scope:initial, #920
+Multi-driver check: cache.config_ctrl.set4.ram_tag.mem, 0, 15:0; all_case/case2/free_config_cache.v, scope:cache.config_ctrl.set4.ram_tag, #945; all_case/case2/free_config_cache.v, scope:initial, #920
+Multi-driver check: cache.config_ctrl.set5.ram_tag.mem, 0, 15:0; all_case/case2/free_config_cache.v, scope:cache.config_ctrl.set5.ram_tag, #945; all_case/case2/free_config_cache.v, scope:initial, #920
+Multi-driver check: cache.config_ctrl.set6.ram_tag.mem, 0, 15:0; all_case/case2/free_config_cache.v, scope:cache.config_ctrl.set6.ram_tag, #945; all_case/case2/free_config_cache.v, scope:initial, #920
+Multi-driver check: cache.config_ctrl.set7.ram_tag.mem, 0, 15:0; all_case/case2/free_config_cache.v, scope:cache.config_ctrl.set7.ram_tag, #945; all_case/case2/free_config_cache.v, scope:initial, #920
+Multi-driver check: cache.ram_hot.mem, 0, 7:0; all_case/case2/free_config_cache.v, scope:cache.ram_hot, #945; all_case/case2/free_config_cache.v, scope:initial, #118
+all_case/case2/case6.v
+begin driver conflict check:
+ net map size: 15 all size: 59
+Multi-driver check: async_receiver.tickgen.Acc, 16:0; all_case/case2/case6.v, scope:async_receiver.tickgen, #197; all_case/case2/case6.v, scope:initial, #194
+Multi-driver check: async_receiver.Filter_cnt, 1:0; all_case/case2/case6.v, scope:async_receiver, #121, #123; all_case/case2/case6.v, scope:initial, #115
+Multi-driver check: async_receiver.GapCnt, 5:0; all_case/case2/case6.v, scope:async_receiver, #169; all_case/case2/case6.v, scope:initial, #168
+Multi-driver check: async_receiver.OversamplingCnt, 2:0; all_case/case2/case6.v, scope:async_receiver, #134; all_case/case2/case6.v, scope:initial, #133
+Multi-driver check: async_receiver.RxD_bit, 0; all_case/case2/case6.v, scope:async_receiver, #125, #127; all_case/case2/case6.v, scope:initial, #116
+Multi-driver check: async_receiver.RxD_data, 7:0; all_case/case2/case6.v, scope:async_receiver, #156; all_case/case2/case6.v, scope:initial, #78
+Multi-driver check: async_receiver.RxD_data_ready, 0; all_case/case2/case6.v, scope:async_receiver, #161; all_case/case2/case6.v, scope:initial, #77
+Multi-driver check: async_receiver.RxD_endofpacket, 0; all_case/case2/case6.v, scope:async_receiver, #171; all_case/case2/case6.v, scope:initial, #84
+Multi-driver check: async_receiver.RxD_state, 3:0; all_case/case2/case6.v, scope:async_receiver, #141, #142, #143, #144, #145, #146, #147, #148, #149, #150, #151, #152; all_case/case2/case6.v, scope:initial, #100
+Multi-driver check: async_receiver.RxD_sync, 1:0; all_case/case2/case6.v, scope:async_receiver, #112; all_case/case2/case6.v, scope:initial, #111
+Multi-driver check: async_receiver.p, 0; all_case/case2/case6.v, scope:async_receiver.tickgen, #201; all_case/case2/case6.v, scope:async_transmitter.tickgen, #201
+Multi-driver check: async_transmitter.tickgen.Acc, 16:0; all_case/case2/case6.v, scope:async_transmitter.tickgen, #197; all_case/case2/case6.v, scope:initial, #194
+Multi-driver check: async_transmitter.TxD_shift, 7:0; all_case/case2/case6.v, scope:async_transmitter, #47, #50; all_case/case2/case6.v, scope:initial, #43
+Multi-driver check: async_transmitter.TxD_state, 3:0; all_case/case2/case6.v, scope:async_transmitter, #53, #54, #55, #56, #57, #58, #59, #60, #61, #62, #63, #64, #65; all_case/case2/case6.v, scope:initial, #39
+Multi-driver check: async_transmitter.q, 0; all_case/case2/case6.v, scope:async_receiver.tickgen, #199; all_case/case2/case6.v, scope:async_transmitter.tickgen, #199
+all_case/case2/forloop_1_error.v
+begin driver conflict check:
+ net map size: 1 all size: 8
+Multi-driver check: decoder2.c, 2; all_case/case2/forloop_1_error.v, scope:decoder2, #45; all_case/case2/forloop_1_error.v, scope:decoder2, #50
+all_case/case2/case7.v
+begin driver conflict check:
+ net map size: 193 all size: 392
+Multi-driver check: tagArray.q, 0; all_case/case2/case7.v, scope:tagArray.t0, #10; all_case/case2/case7.v, scope:tagArray.t1, #10; all_case/case2/case7.v, scope:tagArray.t2, #10; all_case/case2/case7.v, scope:tagArray.t3, #10; all_case/case2/case7.v, scope:tagArray.t4, #10; all_case/case2/case7.v, scope:tagArray.t5, #10; all_case/case2/case7.v, scope:tagArray.t6, #10; all_case/case2/case7.v, scope:tagArray.t7, #10
+all_case/case2/mult16.v
+begin driver conflict check:
+ net map size: 7 all size: 17
+Multi-driver check: mul16.mult16inst.done, 0; all_case/case2/mult16.v, scope:mul16.mult16inst, #34, #42, #57; all_case/case2/mult16.v, scope:mul16, #119
+all_case/case2/forloop_6_error.v
+begin driver conflict check:
+ net map size: 17 all size: 26
+Multi-driver check: pipeline.firsta, 3:2; all_case/case2/forloop_6_error.v, scope:pipeline, #26; all_case/case2/forloop_6_error.v, scope:pipeline, #34
+all_case/case2/forloop_7_error.v
+begin driver conflict check:
+ net map size: 1 all size: 17
+Multi-driver check: funct.result, 14:0; all_case/case2/forloop_7_error.v, scope:funct, #14, #16; all_case/case2/forloop_7_error.v, scope:funct, #22
+all_case/case2/case5.v
+begin driver conflict check:
+ net map size: 1 all size: 257
+Multi-driver check: ram.ram, 0, 7:0; all_case/case2/case5.v, scope:ram, #270; all_case/case2/case5.v, scope:initial, #258
+all_case/case2/forloop_5_error.v
+begin driver conflict check:
+ net map size: 16 all size: 71
+Multi-driver check: traffic.ayellow, 7:0; all_case/case2/forloop_5_error.v, scope:traffic, #27; all_case/case2/forloop_5_error.v, scope:traffic, #34
+all_case/case2/4way_4word.v
+begin driver conflict check:
+ net map size: 161 all size: 82161
+Multi-driver check: cache.ram_hot.mem, 0, 7:0; all_case/case2/4way_4word.v, scope:cache.ram_hot, #452; all_case/case2/4way_4word.v, scope:initial, #101
+Multi-driver check: cache.set0.ram_tag.mem, 0, 10:0; all_case/case2/4way_4word.v, scope:cache.set0.ram_tag, #452; all_case/case2/4way_4word.v, scope:initial, #427
+Multi-driver check: cache.set1.ram_tag.mem, 0, 10:0; all_case/case2/4way_4word.v, scope:cache.set1.ram_tag, #452; all_case/case2/4way_4word.v, scope:initial, #427
+Multi-driver check: cache.set2.ram_tag.mem, 0, 10:0; all_case/case2/4way_4word.v, scope:cache.set2.ram_tag, #452; all_case/case2/4way_4word.v, scope:initial, #427
+Multi-driver check: cache.set3.ram_tag.mem, 0, 10:0; all_case/case2/4way_4word.v, scope:cache.set3.ram_tag, #452; all_case/case2/4way_4word.v, scope:initial, #427
+Multi-driver check: cache.q, 0; all_case/case2/4way_4word.v, scope:cache.set0, #397; all_case/case2/4way_4word.v, scope:cache.set1, #397; all_case/case2/4way_4word.v, scope:cache.set2, #397; all_case/case2/4way_4word.v, scope:cache.set3, #397
+all_case/case2/forloop_3_error.v
+begin driver conflict check:
+ net map size: 6 all size: 48
+Multi-driver check: sell.collect, 0; all_case/case2/forloop_3_error.v, scope:sell, #18; all_case/case2/forloop_3_error.v, scope:sell, #34, #55, #61, #66
+Multi-driver check: sell.test, 0, 4:3; all_case/case2/forloop_3_error.v, scope:sell, #21; all_case/case2/forloop_3_error.v, scope:sell, #28
+Multi-driver check: sell.test, 1, 4:3; all_case/case2/forloop_3_error.v, scope:sell, #21; all_case/case2/forloop_3_error.v, scope:sell, #28
+Multi-driver check: sell.test, 2, 4:3; all_case/case2/forloop_3_error.v, scope:sell, #21; all_case/case2/forloop_3_error.v, scope:sell, #28
+Multi-driver check: sell.test, 3, 4:3; all_case/case2/forloop_3_error.v, scope:sell, #21; all_case/case2/forloop_3_error.v, scope:sell, #28
+Multi-driver check: sell.test, 4, 4:3; all_case/case2/forloop_3_error.v, scope:sell, #21; all_case/case2/forloop_3_error.v, scope:sell, #28
+all_case/case2/8way_4word.v
+begin driver conflict check:
+ net map size: 297 all size: 5018
+Multi-driver check: cache.ram_hot.mem, 0, 7:0; all_case/case2/8way_4word.v, scope:cache.ram_hot, #621; all_case/case2/8way_4word.v, scope:initial, #107
+Multi-driver check: cache.set0.ram_tag.mem, 0, 15:0; all_case/case2/8way_4word.v, scope:cache.set0.ram_tag, #621; all_case/case2/8way_4word.v, scope:initial, #596
+Multi-driver check: cache.set1.ram_tag.mem, 0, 15:0; all_case/case2/8way_4word.v, scope:cache.set1.ram_tag, #621; all_case/case2/8way_4word.v, scope:initial, #596
+Multi-driver check: cache.set2.ram_tag.mem, 0, 15:0; all_case/case2/8way_4word.v, scope:cache.set2.ram_tag, #621; all_case/case2/8way_4word.v, scope:initial, #596
+Multi-driver check: cache.set3.ram_tag.mem, 0, 15:0; all_case/case2/8way_4word.v, scope:cache.set3.ram_tag, #621; all_case/case2/8way_4word.v, scope:initial, #596
+Multi-driver check: cache.set4.ram_tag.mem, 0, 15:0; all_case/case2/8way_4word.v, scope:cache.set4.ram_tag, #621; all_case/case2/8way_4word.v, scope:initial, #596
+Multi-driver check: cache.set5.ram_tag.mem, 0, 15:0; all_case/case2/8way_4word.v, scope:cache.set5.ram_tag, #621; all_case/case2/8way_4word.v, scope:initial, #596
+Multi-driver check: cache.set6.ram_tag.mem, 0, 15:0; all_case/case2/8way_4word.v, scope:cache.set6.ram_tag, #621; all_case/case2/8way_4word.v, scope:initial, #596
+Multi-driver check: cache.set7.ram_tag.mem, 0, 15:0; all_case/case2/8way_4word.v, scope:cache.set7.ram_tag, #621; all_case/case2/8way_4word.v, scope:initial, #596
+Multi-driver check: cache.q, 0; all_case/case2/8way_4word.v, scope:cache.set0, #566; all_case/case2/8way_4word.v, scope:cache.set1, #566; all_case/case2/8way_4word.v, scope:cache.set2, #566; all_case/case2/8way_4word.v, scope:cache.set3, #566; all_case/case2/8way_4word.v, scope:cache.set4, #566; all_case/case2/8way_4word.v, scope:cache.set5, #566; all_case/case2/8way_4word.v, scope:cache.set6, #566; all_case/case2/8way_4word.v, scope:cache.set7, #566
+all_case/case2/forloop_8_error.v
+begin driver conflict check:
+ net map size: 1 all size: 9
+Multi-driver check: alutask.c, 4:0; all_case/case2/forloop_8_error.v, scope:alutask, #23, #26, #27, #28; all_case/case2/forloop_8_error.v, scope:alutask, #33
+all_case/case2/forloop_9_error.v
+begin driver conflict check:
+ net map size: 8 all size: 16
+Multi-driver check: add_tree.temp0, 7:0; all_case/case2/forloop_9_error.v, scope:add_tree, #40; all_case/case2/forloop_9_error.v, scope:add_tree, #45
+all_case/case2/multiply_large.v
+begin driver conflict check:
+ net map size: 5 all size: 76905
+Multi-driver check: multiply_large.rc, 0; all_case/case2/multiply_large.v, scope:multiply_large.mpy, #24; all_case/case2/multiply_large.v, scope:multiply_large.mpy, #26; all_case/case2/multiply_large.v, scope:initial, #152, #134, #116, #98, #80, #62, #50
+all_case/reset.v
+begin driver conflict check:
+ net map size: 4 all size: 10
+Multi-driver check: reset.reset_flops1.pipe_out, 0; all_case/reset.v, scope:reset.reset_flops1.genblk4, #111, #115; all_case/reset.v, scope:reset.reset_flops1, #92
+Multi-driver check: reset.reset_flops2.pipe_out, 0; all_case/reset.v, scope:reset.reset_flops2.genblk4, #111, #115; all_case/reset.v, scope:reset.reset_flops2, #92
+all_case/boy.v
+begin driver conflict check:
+ net map size: 269 all size: 1541
+Multi-driver check: boy.ppu.r_state, 4:0; all_case/boy.v, scope:boy.ppu, #3622, #3633, #3637, #3643, #3649; all_case/boy.v, scope:initial, #3261
+Multi-driver check: boy.sound.frame_div.counter, 14:0; all_case/boy.v, scope:boy.sound.frame_div, #879, #882; all_case/boy.v, scope:initial, #873
+Multi-driver check: boy.sound.frame_div.o, 0; all_case/boy.v, scope:boy.sound.frame_div, #878; all_case/boy.v, scope:initial, #868
+Multi-driver check: boy.sound.freq_div.counter, 1:0; all_case/boy.v, scope:boy.sound.freq_div, #879, #882; all_case/boy.v, scope:initial, #873
+Multi-driver check: boy.sound.freq_div.o, 0; all_case/boy.v, scope:boy.sound.freq_div, #878; all_case/boy.v, scope:initial, #868
+Multi-driver check: boy.sound.sound_ch1.sound_length_ctr.enable, 0; all_case/boy.v, scope:boy.sound.sound_ch1.sound_length_ctr, #4470, #4474, #4482; all_case/boy.v, scope:initial, #4462
+Multi-driver check: boy.sound.sound_ch1.sound_length_ctr.length_left, 5:0; all_case/boy.v, scope:boy.sound.sound_ch1.sound_length_ctr, #4471, #4475, #4480; all_case/boy.v, scope:initial, #4464
+Multi-driver check: boy.sound.sound_ch1.divider, 10:0; all_case/boy.v, scope:boy.sound.sound_ch1, #4660, #4665, #4668; all_case/boy.v, scope:initial, #4650
+Multi-driver check: boy.sound.sound_ch1.duty_counter, 2:0; all_case/boy.v, scope:boy.sound.sound_ch1, #4676; all_case/boy.v, scope:initial, #4673
+Multi-driver check: boy.sound.sound_ch1.octo_freq_out, 0; all_case/boy.v, scope:boy.sound.sound_ch1, #4664; all_case/boy.v, scope:initial, #4652
+Multi-driver check: boy.sound.sound_ch2.sound_length_ctr.enable, 0; all_case/boy.v, scope:boy.sound.sound_ch2.sound_length_ctr, #4470, #4474, #4482; all_case/boy.v, scope:initial, #4462
+Multi-driver check: boy.sound.sound_ch2.sound_length_ctr.length_left, 5:0; all_case/boy.v, scope:boy.sound.sound_ch2.sound_length_ctr, #4471, #4475, #4480; all_case/boy.v, scope:initial, #4464
+Multi-driver check: boy.sound.sound_ch2.divider, 10:0; all_case/boy.v, scope:boy.sound.sound_ch2, #4660, #4665, #4668; all_case/boy.v, scope:initial, #4650
+Multi-driver check: boy.sound.sound_ch2.duty_counter, 2:0; all_case/boy.v, scope:boy.sound.sound_ch2, #4676; all_case/boy.v, scope:initial, #4673
+Multi-driver check: boy.sound.sound_ch2.octo_freq_out, 0; all_case/boy.v, scope:boy.sound.sound_ch2, #4664; all_case/boy.v, scope:initial, #4652
+Multi-driver check: boy.sound.sound_ch3.sound_length_ctr.enable, 0; all_case/boy.v, scope:boy.sound.sound_ch3.sound_length_ctr, #4470, #4474, #4482; all_case/boy.v, scope:initial, #4462
+Multi-driver check: boy.sound.sound_ch3.sound_length_ctr.length_left, 7:0; all_case/boy.v, scope:boy.sound.sound_ch3.sound_length_ctr, #4471, #4475, #4480; all_case/boy.v, scope:initial, #4464
+Multi-driver check: boy.sound.sound_ch3.clk_pointer_inc, 0; all_case/boy.v, scope:boy.sound.sound_ch3, #4859; all_case/boy.v, scope:initial, #4850
+Multi-driver check: boy.sound.sound_ch3.current_pointer, 4:0; all_case/boy.v, scope:boy.sound.sound_ch3, #4871, #4875; all_case/boy.v, scope:initial, #4837
+Multi-driver check: boy.sound.sound_ch3.divider, 10:0; all_case/boy.v, scope:boy.sound.sound_ch3, #4855, #4860, #4863; all_case/boy.v, scope:initial, #4851
+Multi-driver check: boy.sound.sound_ch4.sound_length_ctr.enable, 0; all_case/boy.v, scope:boy.sound.sound_ch4.sound_length_ctr, #4470, #4474, #4482; all_case/boy.v, scope:initial, #4462
+Multi-driver check: boy.sound.sound_ch4.sound_length_ctr.length_left, 5:0; all_case/boy.v, scope:boy.sound.sound_ch4.sound_length_ctr, #4471, #4475, #4480; all_case/boy.v, scope:initial, #4464
+Multi-driver check: boy.sound.sound_ch4.clk_div, 0; all_case/boy.v, scope:boy.sound.sound_ch4, #4537; all_case/boy.v, scope:initial, #4530
+Multi-driver check: boy.sound.sound_ch4.clk_divider, 4:0; all_case/boy.v, scope:boy.sound.sound_ch4, #4538, #4541; all_case/boy.v, scope:initial, #4533
+Multi-driver check: boy.sound.sound_ch4.clk_shifter, 13:0; all_case/boy.v, scope:boy.sound.sound_ch4, #4547; all_case/boy.v, scope:initial, #4544
+Multi-driver check: boy.sound.sound_ch4.lfsr, 14:0; all_case/boy.v, scope:boy.sound.sound_ch4, #4569, #4572; all_case/boy.v, scope:initial, #4552
+Multi-driver check: boy.sound.sequencer_state, 2:0; all_case/boy.v, scope:boy.sound, #4224; all_case/boy.v, scope:initial, #4221
+Multi-driver check: boy.reg_ie, 0; all_case/boy.v, scope:boy, #243; all_case/boy.v, scope:boy, #248
+Multi-driver check: mbc5.ram_en, 0; all_case/boy.v, scope:mbc5, #2924, #2930, #2931; all_case/boy.v, scope:initial, #2895
+all_case/cordic_hyp.v
+begin driver conflict check:
+ net map size: 18 all size: 331
+Multi-driver check: cordic_hyp.pipe_func_e_exp.genblk4.pipe_gen, 17, 35, 53, 71, 89, 107, 125, 143, 161, 179, 197, 215; all_case/cordic_hyp.v, scope:cordic_hyp.pipe_func_e_exp.genblk4, #337, #341; all_case/cordic_hyp.v, scope:cordic_hyp.pipe_func_e_exp.genblk4.pipeline[1], #349, #350; all_case/cordic_hyp.v, scope:cordic_hyp.pipe_func_e_exp.genblk4.pipeline[2], #349, #350; all_case/cordic_hyp.v, scope:cordic_hyp.pipe_func_e_exp.genblk4.pipeline[3], #349, #350; all_case/cordic_hyp.v, scope:cordic_hyp.pipe_func_e_exp.genblk4.pipeline[4], #349, #350; all_case/cordic_hyp.v, scope:cordic_hyp.pipe_func_e_exp.genblk4.pipeline[5], #349, #350; all_case/cordic_hyp.v, scope:cordic_hyp.pipe_func_e_exp.genblk4.pipeline[6], #349, #350; all_case/cordic_hyp.v, scope:cordic_hyp.pipe_func_e_exp.genblk4.pipeline[7], #349, #350; all_case/cordic_hyp.v, scope:cordic_hyp.pipe_func_e_exp.genblk4.pipeline[8], #349, #350; all_case/cordic_hyp.v, scope:cordic_hyp.pipe_func_e_exp.genblk4.pipeline[9], #349, #350; all_case/cordic_hyp.v, scope:cordic_hyp.pipe_func_e_exp.genblk4.pipeline[10], #349, #350; all_case/cordic_hyp.v, scope:cordic_hyp.pipe_func_e_exp.genblk4.pipeline[11], #349, #350; all_case/cordic_hyp.v, scope:cordic_hyp.pipe_func_e_exp.genblk4.pipeline[12], #350
+Multi-driver check: cordic_hyp.pipe_valid.genblk4.pipe_gen, 12:0; all_case/cordic_hyp.v, scope:cordic_hyp.pipe_valid.genblk4, #337, #341; all_case/cordic_hyp.v, scope:cordic_hyp.pipe_valid.genblk4.pipeline[1], #349, #350; all_case/cordic_hyp.v, scope:cordic_hyp.pipe_valid.genblk4.pipeline[2], #349, #350; all_case/cordic_hyp.v, scope:cordic_hyp.pipe_valid.genblk4.pipeline[3], #349, #350; all_case/cordic_hyp.v, scope:cordic_hyp.pipe_valid.genblk4.pipeline[4], #349, #350; all_case/cordic_hyp.v, scope:cordic_hyp.pipe_valid.genblk4.pipeline[5], #349, #350; all_case/cordic_hyp.v, scope:cordic_hyp.pipe_valid.genblk4.pipeline[6], #349, #350; all_case/cordic_hyp.v, scope:cordic_hyp.pipe_valid.genblk4.pipeline[7], #349, #350; all_case/cordic_hyp.v, scope:cordic_hyp.pipe_valid.genblk4.pipeline[8], #349, #350; all_case/cordic_hyp.v, scope:cordic_hyp.pipe_valid.genblk4.pipeline[9], #349, #350; all_case/cordic_hyp.v, scope:cordic_hyp.pipe_valid.genblk4.pipeline[10], #349, #350; all_case/cordic_hyp.v, scope:cordic_hyp.pipe_valid.genblk4.pipeline[11], #349, #350; all_case/cordic_hyp.v, scope:cordic_hyp.pipe_valid.genblk4.pipeline[12], #349, #350; all_case/cordic_hyp.v, scope:cordic_hyp.pipe_valid.genblk4.pipeline[13], #350

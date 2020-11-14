@@ -23,6 +23,40 @@ module dut(input a,b,c,e,clk, output reg [7:0] q );
 // // reg q[3:0];
 reg [7:0] mem[6:0];
 
+wire [3:0] address;
+
+integer i,j;
+
+reg [31:0] tmp;
+// always@(a)begin
+//   for(i=0;i<8;i++)begin
+//     tmp[i*4+3] = a;
+//   end
+// end
+
+// always@(a)begin
+//   for(i=0;i<8;i++)begin
+//     tmp[i+3] = a;
+//   end
+// end
+
+// always@(a)begin
+//   // for(i=0;i<4;i++)begin
+//     // tmp[i*4+3] = a;
+//     tmp[address] = a;
+//   // end
+// end
+// always@(a)begin
+//   // for(i=0;i<4;i++)begin
+//     // tmp[i*4+3] = a;
+//     tmp[address] = a;
+//   // end
+// end
+// initial begin
+//   for(i=0;i<8;i++)begin
+//     tmp[i*4+3] = a;
+//   end
+// end
 // reg h= 0;
 
 // reg f = 1;
@@ -134,22 +168,28 @@ reg [7:0] mem[6:0];
 // end
 
 
-    reg [0:7] aa [0:15];
-    integer i,j;
+    // reg [0:7] aa [0:15];
+    // integer i,j;
 
-    //    integer i;
+    // //    integer i;
     
-    initial begin
-        for(i = 0; i <(2**3); i=i+1) begin
-	        mem[0][i] = 0;
-        end
-    end
+    // initial begin
+    //     for(i = 0; i <(2**3); i=i+1) begin
+	  //       mem[0][i] = 0;
+    //     end
+    // end
+    
+    // initial begin
+    //     for(i = 0; i <(2**3); i=i+1) begin
+	  //       mem[1][i*4+3] = 0;
+    //     end
+    // end
 
-        always@(a) begin
-        for(i = 0; i <(2**3); i=i+1) begin
-	        mem[0][i] = 0;
-        end
-    end
+    //     always@(a) begin
+    //     for(i = 0; i <(2**3); i=i+1) begin
+	  //       mem[0][i*4+3] = 0;
+    //     end
+    // end
     // always@(c)begin
     //   aa[2][0:3] = c;
     //   aa[2][5:7] = c;
@@ -157,12 +197,21 @@ reg [7:0] mem[6:0];
     // always@(c)begin
     //   aa[2][3:6] = c;
     // end
-    // always @(posedge clk) begin
-    //     for (i=2; i<4; i++)         //15
-    //         for (j=0; j <i+3; j= j+1)            //7
-    //             mem[i][j] = a;
-    //     // dd = cc & bb;
-    // // end      
+
+
+    always @(posedge clk) begin
+        for (i=0; i<5; i++)         //15
+            for (j=0; j <i+4; j= j+1)            //7
+                mem[i][j] = a;
+    end     
+        always @(posedge clk) begin
+        for (i=0; i<5; i++)         //15
+            for (j=0; j <i; j= j+1)            //7
+                mem[i][j] = a;
+    end 
+
+
+
     // always @(posedge clk) begin
     //     for (i=2; i<4; i++)         //15
     //         for (j=0; j <3; j= j+1)            //7

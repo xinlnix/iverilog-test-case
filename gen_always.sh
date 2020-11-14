@@ -9,7 +9,7 @@ echo "module mux4_1();
 
 
 
-for i in $(seq 1 150000)
+for i in $(seq 1 100000)
 do
 
     echo "
