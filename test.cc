@@ -1,155 +1,161 @@
 
-
-
-
-
-
-#include <map>
-#include <unordered_map>
-#include <set>
-#include <string>
-#include <iostream>
-#include <iterator>
-
+#include<iostream>
+#include <vector>
+#include <sstream>
 using namespace std;
 
-typedef unordered_multimap<string,string> mm; 
-typedef unordered_map<string, set<string> > ms; 
+#include <stdio.h>
+#include<stdlib.h>
+#include<string.h>
+// #include <cmath>
 
-ms convert(const mm& m)
-{   
-    ms r;
-    for (mm::const_iterator it = m.begin(); it != m.end(); ++it)    {   
-        set<string>& s(r[it->first]);
-        // set<string> s(const string & r[it->first]);
-        s.insert(it->second);
-    }   
-    return r;
-} 
-mm convert_reverse(const ms& mset){
-    mm mmap;
-    for(auto it = mset.begin();it!=mset.end();it++){
-        for(auto it_set = it->second.begin();it_set!=it->second.end();it_set++)
-        mmap.insert(make_pair(it->first,*it_set));
+
+// void fun(char * a){
+//     char *p = a;
+//     while(*p=='*')
+//         p++;
+
+//     for(;*p!='\0';p++){
+//         if(*p!='*') *a++ = *p;
+//     }
+
+//     *a++ = '\0'; 
+// }
+
+// int main()
+// {
+//     char a[80] = "***a**b*cc*";
+//     fun(&a[0]);
+//     cout<<a;
+
+// }
+
+#define N 10
+
+typedef struct student{
+        int id;
+        char name[20];
+        int s1;
+        int s2;
+        int s3;
+        float sum;
+        char level[10];
+}STU;
+
+int fun(STU x[], STU h[], int n){
+    //caculate sum
+    for(int i = 0;i<n;i++){
+        x[i].sum = x[i].s1 + x[i].s2 + x[i].s3;
     }
-    return mmap;
-}  
-
-
-int main()
-{   
-    mm m;
-    m.insert(make_pair("john", "kowalski"));
-    m.insert(make_pair("mary", "walker"));
-    m.insert(make_pair("john", "kowalski"));
-    m.insert(make_pair("john", "smiths"));
-    m.insert(make_pair("mary", "doe"));
-    m.insert(make_pair("mary", "walker"));
-
-    ms s(convert(m));
-    cout<<s.size()<<endl;
-
-    for(auto it_s:s){
-        cout<<it_s.first<<" : ";
-        auto result = s.find(it_s.first);
-        for(auto out:result->second ){
-            cout<<out<<" ";
+    //find high 
+    float highest = x[0].sum;
+    for(int i = 0;i<n;i++){
+        if(highest<x[i].sum){
+            highest = x[i].sum;
         }
-        cout<<endl;
+    }
+    //find lowest 
+    float lowest = x[0].sum;
+    for(int i = 0;i<n;i++){
+        if(lowest > x[i].sum){
+            lowest = x[i].sum;
+        }
+    }
+    //
+    int return_num = 0;
+    for(int i = 0;i<n;i++){
+        if(x[i].sum> lowest && x[i].sum < highest){
+            strcpy(x[i].level, "pass");
+            h[return_num] = x[i];
+            return_num +=1;
+        }
     }
 
-    m.clear();
-    m = convert_reverse(s);
+    return return_num ;
+}
+ 
+int main()
+{
+    STU s1[N] = {{1,"AAA1",81,87,74},{1,"AAA1",81,85,74},{1,"AAA1",81,86,74}};
+    cout<<fun(s1,s1,3);
+  
 
-    // for (ms::iterator it = s.begin(); it != s.end(); ++it)
-    // {   
-    //     cout << it->first << ": ";
-    //     set<string> &st(it->second);
-    //     copy(st.begin(), st.end(), ostream_iterator<string>(cout, ", "));
-    //     cout << endl;
-    // }   
-    return 0;
-}   
+}
 
+// #include<iostream>
+// #include <vector>
+// #include <sstream>
+// using namespace std;
 
+// #include <stdio.h>
+// #include<stdlib.h>
+// // #include <cmath>
 
-// #include <iostream> 
-// #include <unordered_map> 
-// #include <algorithm> 
-// #include <iterator> 
-// #include <vector> 
-// #include <unordered_set>
-// using namespace std; 
-
-// template<typename T>
-// inline void hash_combine(std::size_t& seed, const T& val)
-// {
-//     seed ^= std::hash<T>()(val)+0x9e3779b9 + (seed << 6) + (seed >> 2);
-// }
-
-// template<typename T>
-// inline void hash_val(std::size_t& seed, const T& val)
-// {
-//     hash_combine(seed, val);
-// }
-
-// template<typename T, typename... Types>
-// inline void hash_val(std::size_t& seed, const T& val, const Types&... args)
-// {
-//     hash_combine(seed, val);
-//     hash_val(seed, args...);
-// }
-
-// template<typename... Types>
-// inline std::size_t hash_val(const Types& ...args)
-// {
-//     std::size_t seed = 0;
-//     hash_val(seed, args...);
-//     return seed;
-// }
-
-// class CustomerEqual
-// {
-// public:
-//     bool operator()(const pair<int,int>& c1, const pair<int,int>& c2) const
-//     {        
-//         return (c1.first == c2.first && c1.second == c2.second);
+// double fun( int a, int n){
+//     double sum = 0;
+//     for(int i = 1;i<=n;i++){
+//         if(i%2 == 0){
+//             // sum += pow((double)1/a,i);
+//             double c = 1;
+//             for(int j=1;j<=i;j++){
+//                     c *= (double)1/a;
+//             }
+//             sum += c;
+//         }
+//         else{
+//             // sum += -pow((double)1/a,i);
+//             double c = 1;
+//             for(int j=1;j<=i;j++){
+//                     c *= (double)1/a;
+//             }
+//             sum += -c;
+//         }
 //     }
-// };
-
-// class CustomerHash
+//     return sum;
+// }
+ 
+// int main()
 // {
-// public:
-//     std::size_t operator()(pair<int,int> & c) const
-//     {
-//         return  hash_val(c.first, c.second);
+    
+//     cout<<fun(2,5);
+//     // string s_input = "2020-11-19 14:30:29";
+//     // stringstream ss(s_input);
+//     // float f1,f2,f3,f4,f5,f6;
+//     // char c;
+//     // ss>>f1>>c>>f2>>c>>f3;
+//     // cout<<f1<<endl;
+//     // cout<<c<<endl;
+//     // cout<<f2<<endl;
+//     // cout<<f3+1.033<<endl;
+//     // cout<<1.033 - (int)1.033<<endl;
+// }
+
+// #include <cstdio>
+// #include <cmath>
+// #define percise 0.000000001
+ 
+// double func1(double v,bool id){//原函数
+//     if(id) return v*v-3*v+2-exp(v);//方程1 x^2-3*x+2-e^x=0
+//         else return v*v*v-v-1;//方程2 x^3-x-1=0
+// }
+// double func2(double v,bool id){//导数
+//     if(id) return 2*v-3-exp(v);//方程1的导数
+//         else return 3*v*v-1;//方程2的导数
+// }
+
+// void NewtonMethod(double x,bool id){
+//     int i=0;
+//     printf("-----------------牛顿法-------------------\n");
+//     printf("初始值为%f\n",x);
+//     while(fabs(func1(x,id)/func2(x,id))>percise){
+//         x-=func1(x,id)/func2(x,id);
+//         i++;
+//         printf("迭代次数为:%d,此时x为%f\n",i,x);
 //     }
-// };
+//     printf("最终结果为%f\n",x);
+// }
 
-// int main(int argc, char *argv[]) { 
-//     unordered_set<pair<int,int>,CustomerHash,CustomerEqual> myset ;
-//     auto ele1 = pair<int,int>(1,2);
-//     myset.insert(make_pair(1,2));
-
-
-// } 
-
-// using namespace std; 
-// int main(int argc, char *argv[]) { 
-//     unordered_map<std::string, std::string> mymap = {{"Australia", "Canberra"},{"U.S.","Washington"},{"France","Paris"}}; 
-//     vector<std::string> keys; 
-//     transform(mymap.begin(), mymap.end(), back_inserter(keys), 
-//      [](const decltype(mymap)::value_type& pair) { 
-//       return pair.first; 
-//      }); 
-//     sort(keys.begin(), keys.end()); 
-//     cout << "mymap contains: "; 
-//     for (auto const& key: keys) { 
-//      cout << " " << key << ":" << mymap[key]; 
-//     } 
-//     cout << endl; 
-// } 
-
-// std::unordered_map<int, int> um {{2, 3}, {6, 7}, {0, 5}};
-// std::vector<std::pair<int, int>> sorted_elements(um.begin(), um.end());
-// std::sort(sorted_elements.begin(), sorted_elements.end());
+// int main() {
+//     NewtonMethod(0,1);NewtonMethod(2,0);//用牛顿法求两个方程的解
+//     return 0;
+// }
